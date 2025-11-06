@@ -1,0 +1,150 @@
+.customSelect {
+    position: relative;
+    width: 400px;
+    max-width: 100%;
+    color: #000;
+}
+ 
+.selectButton {
+    width: 100%;
+    background-color: #fff;
+    padding: 0.675em 1em;
+    border: 1px solid #caced1;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+ 
+.selectedValue {
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    flex: 1;
+    text-transform: capitalize;
+}
+ 
+.arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #000;
+    transition: transform ease-in-out 0.3s;
+}
+ 
+.selectDropdown {
+    position: absolute;
+    list-style: none;
+    width: 100%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border: 1px solid #caced1;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+    transition: 0.5s ease;
+    transform: scaleY(0);
+    opacity: 0;
+    visibility: hidden;
+    text-transform: capitalize; 
+    z-index: 9999999;
+}
+ 
+.selectDropdown:focus-within {
+    box-shadow: 0 10px 25px rgba(94, 108, 233, 0.6);
+}
+ 
+.mainOption {
+    display: flex;
+    flex-direction: column;
+}
+ 
+.mainOptionHeading {
+    font-weight: bold;
+    padding: 8px 10px;
+    pointer-events: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+ 
+.subOptions {
+    margin-top: 5px;
+    padding-left: 20px;
+    list-style: none;
+}
+ 
+.subOption {
+    cursor: pointer;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+}
+ 
+.subOption:hover,
+.selectDropdown input:checked + label {
+    background-color: #f2f2f2;
+}
+ 
+.subOption > label {
+    cursor: pointer;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+}
+ 
+.selectDropdown input:focus + label {
+    background-color: #dfdfdf;
+}
+ 
+.subOption:has(> input:checked) {
+    background-color: #f2f2f2;
+}
+ 
+.selectDropdown input[type="radio"] {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+}
+ 
+.customSelect.active .arrow {
+    transform: rotate(180deg);
+}
+ 
+.customSelect.active .imageDiv {
+    transform: rotate(180deg);
+}
+ 
+.selectDropdown::-webkit-scrollbar {
+    width: 7px;
+}
+ 
+.selectDropdown::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 25px;
+}
+ 
+.selectDropdown::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 25px;
+}
+ 
+.customSelect.active .selectDropdown {
+    transform: scaleY(1);
+    opacity: 1;
+    visibility: visible;
+}
+ 
+.imageDiv {
+    position: relative;
+    width: 15px;
+    height: 15px;
+}

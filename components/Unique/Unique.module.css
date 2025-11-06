@@ -1,0 +1,194 @@
+.customSection {
+
+  background-color: white;
+
+  border-radius: 0.75rem;
+
+  margin: 0px auto 10px auto;
+}
+
+.botWrapper {
+  position: absolute;
+  bottom: 0;
+  left: 3.5rem;
+  width: 100%;
+  height: auto;
+}
+
+.botImage {
+  object-fit: contain;
+  width: 700px;
+  height: auto;
+}
+
+.botButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--secondary-color);
+  background: var(--primary-bg);
+  padding: 6px 1.5rem;
+  border: 1.5px solid var(--secondary-color);
+  border-radius: 2.75rem;
+  cursor: pointer;
+  font-size: 0.7rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.botButton:hover {
+  background: var(--secondary-color);
+  color: var(--primary-bg);
+}
+
+@media (max-width: 320px) {
+  .botImage {
+    width: 220px;
+  }
+
+  .botButton {
+    position: absolute;
+    top: 19%;
+    left: 16%;
+  }
+}
+
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .botButton {
+    position: absolute;
+    top: 19%;
+    font-size: 0.3rem;
+    left: 29%;
+    padding: 2px 1.3em;
+  }
+
+  .botWrapper {
+    position: absolute;
+    bottom: 0;
+    left: 1.5rem;
+    width: 70%;
+    height: auto;
+  }
+}
+
+
+@media (min-width: 481px) and (max-width: 575px) {
+  .botImage {
+    width: 340px;
+  }
+
+  .botButton {
+    position: absolute;
+    top: 19%;
+    left: 17%;
+    padding: 2px 1.3em;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .botImage {
+    width: 400px;
+  }
+
+  .botButton {
+    position: absolute;
+    top: 19%;
+    left: 16%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .botImage {
+    width: 435px;
+  }
+
+  .botButton {
+    position: absolute;
+    top: 19%;
+    left: 16%;
+    padding: 2px 1.3em;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .botImage {
+    width: 550px;
+  }
+
+  .botButton {
+    position: absolute;
+    top: 19%;
+    left: 18%;
+  }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1199px) {
+  .botImage {
+    width: 580px;
+  }
+
+  .botButton {
+    position: absolute;
+    top: 19%;
+    left: 15%;
+  }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1366px) {
+  .botImage {
+    width: 600px;
+  }
+
+  .botButton {
+    position: absolute;
+    top: 19%;
+    left: 15%;
+  }
+}
+
+
+@media (min-width: 1367px) and (max-width: 1440px) {
+  .botImage {
+    width: 650px;
+  }
+
+  .botButton {
+    position: absolute;
+    top: 19%;
+    left: 16%;
+  }
+}
+
+
+@media (min-width: 1441px) and (max-width: 1600px) {
+  .botImage {
+    width: 680px;
+  }
+
+  .botButton {
+    position: absolute;
+    top: 19%;
+    left: 16%;
+  }
+}
+
+
+@media (min-width: 1601px) and (max-width: 1920px) {
+  .botImage {
+    width: 734px;
+  }
+
+  .botButton {
+    position: absolute;
+    top: 20%;
+    left: 13%;
+  }
+}
+
+

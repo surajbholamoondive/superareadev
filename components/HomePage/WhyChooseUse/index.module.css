@@ -1,0 +1,77 @@
+.container {
+  height: fit-content;
+  max-width: 1500px;
+  width: 100%;
+  margin: auto;  
+  padding: 0px 30px;
+}
+
+.underline {
+  width: 262px;
+  height: 4px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #fff;
+  margin-top: 10px;
+}
+
+.title {
+  margin-left: 4.5%;
+}
+
+@media screen and (max-width: 767px) {
+
+  .title > h1 {
+    font-size: 24px;
+  }
+  .cardsDiv {
+    overflow-x: scroll;
+    justify-content: left;
+    width: 92%;
+    padding: 0px 20px;
+  }
+  .cardsDiv::-webkit-scrollbar {
+    display: none;
+  }
+  .underline {
+    width: 180px;
+  }
+
+  .title {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .title {
+    margin-left: 3%;
+  }
+  .cardsDiv {
+    justify-content: left;
+    width: 93%;
+    gap: 0%;
+    padding: 0px 18px 40px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .container { 
+    padding: 0px 0px;
+  }
+  .cardsDiv {
+    width: 100%;
+    padding: 0px 0px 40px 25px;
+  }
+
+  .title > h1 {
+    font-size: 24px;
+  }
+  .underline {
+    width: 185px;
+    height: 4px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #fff;
+    margin-top: 10px;
+  }
+}

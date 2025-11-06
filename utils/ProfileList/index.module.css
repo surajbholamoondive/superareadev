@@ -1,0 +1,20 @@
+.mainDiv {
+  color: rgb(83, 81, 81);
+}
+
+.iconDiv {
+  background-color: #93160240;
+  border: 1px solid #931602;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 8px;
+}
+
+.mainDiv p {
+  margin-top: 4px;
+}
+.singleDiv:hover p {
+  color: #117683;
+  font-weight: bold;
+  cursor: default;
+}

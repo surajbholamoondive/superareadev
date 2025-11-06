@@ -1,0 +1,771 @@
+.child,
+.child1,
+.child2,
+.child3,
+.child4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  
+}
+
+.step1 {
+    width: 26.5%;
+    height: 60px;
+    background-color: var(--secondary-bg);
+    z-index: 10;
+    position: absolute;
+    clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+}
+
+
+.step1Completed {
+    width: 26.5%;
+    height: 60px;
+    background-color: #CFE6EA;
+    z-index: 10;
+    position: absolute;
+    clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+
+}
+
+.step2 {
+    width: 26.5%;
+    height: 60px;
+    background-color: var(--secondary-bg);
+    left: 25%;
+    position: absolute;
+    z-index: 5;
+    clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+}
+
+.step2Completed {
+    width: 26.5%;
+    height: 60px;
+    background-color: #CFE6EA;
+    left: 25%;
+    z-index: 5;
+    position: absolute;
+    clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+}
+
+.step3 {
+    width: 26.5%;
+    height: 60px;
+    left: 50%;
+    z-index: 3;
+    background-color: var(--secondary-bg);
+    position: absolute;
+    clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+}
+
+.Hover3 {
+    width: 26.5%;
+    height: 60px;
+    left: 50%;
+    z-index: 20;
+    background-color: var(--secondary-bg);
+    position: absolute;
+    clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+}
+
+.step3Completed {
+    width: 26.5%;
+    height: 60px;
+    left: 50%;
+    z-index: 3;
+    background: #CFE6EA;
+    cursor: not-allowed;
+    position: absolute;
+    clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+}
+
+.step4 {
+    width: 28%;
+    height: 60px;
+    left: 74.9%;
+    z-index: 2;
+    background-color: var(--secondary-bg);
+    position: absolute;
+    clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, calc(100% - 20px) 100%, 0% 100%);
+    border-radius: 0 0 29px 0;
+}
+
+
+.step4Completed {
+    width: 28%;
+    height: 60px;
+    left: 75%;
+    z-index: 2;
+    background: #CFE6EA;
+    position: absolute;
+    clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, calc(100% - 20px) 100%, 0% 100%);
+}
+
+/* .child {
+    position: absolute;
+    transform: translate(50%, 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.child1 {
+    position: absolute;
+    transform: translate(32%, 35%);
+     display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .step2 .child2 {
+540    position: absolute;
+    transform: translate(68%, 28%);
+     display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .child2 {
+    position: absolute;
+    transform: translate(49%, 32%);
+     display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .step3 .child3 {
+    position: absolute; 
+    transform: translate(-20%, 10%); 
+    bottom: 12px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .child3 {
+    position: absolute;
+    transform: translate(-30%, 4%);
+    right: 55px;
+    bottom: 12px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .child4 {
+    position: absolute;
+    transform: translate(52%, 28%);
+    right: 100px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.Hover4 {
+    width: 52.9%;
+    height: 60px;
+    left: 50%;
+    z-index: 4;
+    background: #EBEBEB;
+    position: absolute;
+    clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, calc(100% - 20px) 100%, 0% 100%);
+}
+
+.customInput {
+    position: absolute;
+    justify-content: end;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    z-index: 99999;
+    display: flex;
+    left: 0;
+}
+
+/* .calendar > div{
+   background-color: #FAEEE0;
+   max-height: 300px;
+   overflow-y: scroll;
+} */
+.calendar>div::-webkit-scrollbar {
+    width: 3px;
+    display: unset;
+
+}
+
+.calendar>div::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 4px #ffffff;
+    border-radius: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.calendar>div::-webkit-scrollbar-thumb {
+    background: #931602;
+    border-radius: 4px;
+}
+
+/* @media (max-width:768px) {
+    .step1 {
+        width: 27.5%;
+        height: 60px;
+        background-color: var(--secondary-bg);
+        z-index: 10;
+        position: absolute;
+        clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step1Completed {
+        width: 27.5%;
+        height: 60px;
+        background-color: #F0F7F8;
+        z-index: 10;
+        position: absolute;
+        clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step2 {
+        width: 27.5%;
+        height: 60px;
+        background-color: var(--secondary-bg);
+        left: 47.8%;
+        position: absolute;
+        z-index: 5;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step2Completed {
+        width: 27.5%;
+        height: 60px;
+        background-color: #E1F0F2;
+        left: 48%;
+        z-index: 5;
+        position: absolute;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step3 {
+        width: 27.5%;
+        height: 60px;
+        z-index: 3;
+        left: 0;
+        background: var(--secondary-bg);
+        position: absolute;
+        clip-path:polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step3Completed {
+        width: 27.5%;
+        height: 60px;
+        z-index: 3;
+        left: 0;
+        background: #CFE6EA;
+        position: absolute;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step4 {
+        width: 27.5%;
+        height: 60px;
+        left: 48%;
+        z-index: 2;
+        position: absolute;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+        border-radius: 0;
+    }
+
+    .step4Completed {
+        width: 27.5%;
+        height: 60px;
+        left: 48%;
+        z-index: 2;
+        background-color: #C2E1E5;
+        position: absolute;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+        border-radius: 0;
+    }
+
+    .child4 {
+        position: absolute;
+        transform: translate(67%, 28%);
+        right: 100px;
+    }
+} */
+
+
+
+/* @media(max-width:768px){
+    .step1 .step1Completed .step2 .step3 .step3Completed .step4 .step4Completed{
+        width: 53%; 
+    }
+} */
+ /* @media (max-width:768px){
+      .step1 {
+        width: 51%;
+        height: 60px;
+        background-color: var(--secondary-bg);
+        z-index: 10;
+        position: absolute;
+        clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step1Completed {
+        width: 52.3%;
+        height: 60px;
+        background-color: #F0F7F8;
+        z-index: 10;
+        position: absolute;
+        clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step2 {
+        width: 51%;
+        height: 60px;
+        background-color: var(--secondary-bg);
+        left: 47.8%;
+        position: absolute;
+        z-index: 5;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step2Completed {
+        width: 52.3%;
+        height: 60px;
+        background-color: #E1F0F2;
+        left: 48%;
+        z-index: 5;
+        position: absolute;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step3 {
+        width: 51%;
+        height: 60px;
+        z-index: 3;
+        left: 0;
+        background: var(--secondary-bg);
+        position: absolute;
+        clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step3Completed {
+        width: 52.3%;
+        height: 60px;
+        z-index: 3;
+        left: 0;
+        background: #CFE6EA;
+        position: absolute;
+        clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step4 {
+        width: 51%;
+        height: 60px;
+        left: 48%;
+        z-index: 2;
+        position: absolute;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+        border-radius: 0;
+    }
+
+    .step4Completed {
+        width: 52%;
+        height: 60px;
+        left: 48%;
+        z-index: 2;
+        background-color: #C2E1E5;
+        position: absolute;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+        border-radius: 0;
+    }
+ } */
+
+ @media (max-width: 344px) and (max-width: 360px) {
+  .step2Completed{
+    font-size: 10px;
+  }
+ }
+
+@media (max-width:540px) {
+    .step1 {
+        width: 51%;
+        height: 60px;
+        background-color: var(--secondary-bg);
+        z-index: 10;
+        position: absolute;
+        clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step1Completed {
+        width: 52.3%;
+        height: 60px;
+        background-color: #CFE6EA;
+        z-index: 10;
+        position: absolute;
+        clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step2 {
+        width: 52%;
+        height: 60px;
+        background-color: var(--secondary-bg);
+        left: 47.8%;
+        position: absolute;
+        z-index: 5;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step2Completed {
+        width: 52.3%;
+        height: 60px;
+        background-color: #CFE6EA;
+        left: 48%;
+        z-index: 5;
+        position: absolute;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step3 {
+        width: 52%;
+        height: 60px;
+        z-index: 3;
+        left: 0;
+        background: var(--secondary-bg);
+        position: absolute;
+        clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step3Completed {
+        width: 52.3%;
+        height: 60px;
+        z-index: 3;
+        left: 0;
+        background: #CFE6EA;
+        position: absolute;
+        clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step4 {
+        width: 52%;
+        height: 60px;
+        left: 48%;
+        z-index: 2;
+        position: absolute;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+        border-radius: 0;
+    }
+    .step4 p{
+        font-size: 10px;
+    }
+
+    .step4Completed {
+        width: 52%;
+        height: 60px;
+        left: 48%;
+        z-index: 2;
+        background-color: #C2E1E5;
+        position: absolute;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+        border-radius: 0;
+    }
+
+    /* .child1 {
+        position: absolute;
+        transform: translate(10%, 30%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    } */
+
+    /* .child2 {
+        position: absolute;
+        transform: translate(35%, 32%);
+          display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+
+/* 
+    .child3 {
+        position: absolute;
+        transform: translate(35%, 10%);
+          display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+
+    /* .child4 {
+        position: absolute;
+        transform: translate(83%, 28%);
+        right: 100px;
+          display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+
+    /* .child4 p {
+        font-size: 0.65rem;
+    } */
+
+}
+
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .step1 {
+        width: 25.5%;
+        height: 60px;
+        background-color: var(--secondary-bg);
+        z-index: 10;
+        position: absolute;
+        clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step1Completed {
+         width: 25.5%;
+        height: 60px;
+        background-color: "#CFE6E";
+        z-index: 10;
+        position: absolute;
+        clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+
+    }
+
+    .step2 {
+        width: 25.5%;
+        height: 60px;
+        background-color: var(--secondary-bg);
+        left: 24%;
+        position: absolute;
+        z-index: 5;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step2Completed {
+        width: 25.5%;
+        height: 60px;
+        background-color: "#CFE6E";
+        left: 24%;
+        z-index: 5;
+        position: absolute;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step3 {
+        width: 25.5%;
+        height: 60px;
+        left: 48%;
+        z-index: 3;
+        background-color: var(--secondary-bg);
+        position: absolute;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .Hover3 {
+        width: 25%;
+        height: 60px;
+        left: 50%;
+        z-index: 20;
+        background-color: var(--secondary-bg);
+        position: absolute;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step3Completed {
+          width: 25.5%;
+        height: 60px;
+        left: 48%;
+        z-index: 3;
+        background: #CFE6EA;
+        cursor: not-allowed;
+        position: absolute;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step4 {
+        width: 27.5%;
+        height: 60px;
+        left: 72%;
+        z-index: 2;
+        background-color: var(--secondary-bg);
+        position: absolute;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, calc(100% - 20px) 100%, 0% 100%);
+        border-radius: 0 0 29px 0;
+    }
+
+    .step4Completed {
+       width: 27.5%;
+        height: 60px;
+        left: 72%;
+        z-index: 2;
+        background: #CFE6EA;
+        position: absolute;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+
+    /* .child4 {
+        position: absolute;
+        transform: translate(64%, 28%);
+        right: 100px;
+    }
+
+    .child1 {
+        position: absolute;
+        transform: translate(20%, 35%);
+    } */
+
+}
+
+
+
+@media screen and (min-width: 820px) and (max-width: 1000px) {
+    .step1 {
+        font-size: 10px;
+        width: 26.5%;
+        height: 60px;
+        background-color: var(--secondary-bg);
+        z-index: 10;
+        position: absolute;
+        clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step1Completed {
+        width: 26.5%;
+        height: 60px;
+        background-color: #CFE6EA;
+        z-index: 10;
+        position: absolute;
+        clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+
+    }
+
+    .step2 {
+        width: 26.5%;
+        height: 60px;
+        background-color: var(--secondary-bg);
+        left: 25%;
+        position: absolute;
+        z-index: 5;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step2Completed {
+        width: 26.5%;
+        height: 60px;
+        background-color: #CFE6EA;
+        left: 25%;
+        z-index: 5;
+        position: absolute;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step3 {
+        width: 26.5%;
+        
+        height: 60px;
+        left: 50%;
+        z-index: 3;
+        background-color: var(--secondary-bg);
+        position: absolute;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+    .step3 p{
+        font-size: 11px;
+    }
+
+    .Hover3 {
+        width: 27.5%;
+        height: 60px;
+        left: 50%;
+        z-index: 20;
+        background-color: var(--secondary-bg);
+        position: absolute;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step3Completed {
+        width: 26.5%;
+        height: 60px;
+        left: 50%;
+        z-index: 3;
+        background: #CFE6EA;
+        cursor: not-allowed;
+        position: absolute;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+    .step4 {
+        text-align: center;
+        width: 27.5%;
+        height: 60px;
+        left: 75%;
+        z-index: 2;
+        background-color: var(--secondary-bg);
+        position: absolute;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, calc(100% - 20px) 100%, 0% 100%);
+        border-radius: 0 0 29px 0;
+    }
+    .step4 p{
+        font-size: 10px;
+        margin-left: 2px;
+    }
+
+    .step4Completed {
+        width: 27.5%;
+        height: 60px;
+        left: 75%;
+        z-index: 2;
+        background: #CFE6EA;
+        position: absolute;
+        clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, calc(100% - 20px) 100%, 0% 100%);
+    }
+
+/* 
+    .child4 {
+        position: absolute;
+        transform: translate(64%, 28%);
+        right: 100px;
+    }
+
+    .child1 {
+        position: absolute;
+        transform: translate(8%, 35%);
+    }
+
+    .child3 {
+        position: absolute;
+        transform: translate(22%, 16%);
+        right: 55px;
+        bottom: 12px;
+    } */
+
+}
+
+
+
+
+@media (min-width: 481px) and (max-width: 834px) and (orientation: portrait) {
+
+
+    /* .child1 {
+        position: absolute; 
+         transform: translate(38%, 35%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .child4 {
+        position: absolute;
+        transform: translate(45%, 28%);
+        right: 100px;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+}

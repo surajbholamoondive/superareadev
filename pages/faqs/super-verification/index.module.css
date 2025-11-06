@@ -1,0 +1,200 @@
+.circleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle1 {
+  background-color: white;
+  height: 180px;
+  width: 180px;
+  min-width: 170px;
+  min-height: 170px;
+  border: 5px #0168A2 solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  z-index: 5;
+}
+
+.circle2 {
+  background-color: white;
+  height: 180px;
+  width: 180px;
+  min-width: 170px;
+  border: 5px #ae3d2b solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-left: -3%;
+  z-index: 6;
+}
+.circle3 {
+  background-color: white;
+  height: 180px;
+  width: 180px;
+  min-width: 170px;
+  border: 5px #8cb7b2 solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-left: -3%;
+  z-index: 7;
+}
+.circle4 {
+  background-color: white;
+  height: 180px;
+  width: 180px;
+  min-width: 170px;
+  border: 5px #a37f4f solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-left: 5px;
+  z-index: 8;
+}
+
+.wrapper {
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  gap: 10px;
+}
+
+.stepsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  gap: 5px;
+}
+@media screen and (max-width: 670px) {
+  .tickImage {
+    height: 30px;
+  }
+
+  .stepsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .circle1 {
+    height: 130px;
+    width: 130px;
+    min-width: 90px;
+    min-height: 90px;
+  }
+
+  .circle2 {
+    height: 130px;
+    width: 130px;
+    min-width: 90px;
+    min-height: 90px;
+  }
+
+  .circle3 {
+    height: 130px;
+    width: 130px;
+    min-width: 90px;
+    min-height: 90px;
+  }
+
+  .circle4 {
+    height: 130px;
+    width: 130px;
+    min-width: 90px;
+    min-height: 90px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 670px) and (max-width: 1024px) {
+  .tickImage {
+    height: 40px;
+  }
+  .circle1 {
+    height: 140px;
+    width: 140px;
+    min-width: 90px;
+    min-height: 90px;
+  }
+
+  .circle2 {
+    height: 140px;
+    width: 140px;
+    min-width: 90px;
+    min-height: 90px;
+  }
+
+  .circle3 {
+    height: 140px;
+    width: 140px;
+    min-width: 90px;
+    min-height: 90px;
+  }
+
+  .circle4 {
+    height: 140px;
+    width: 140px;
+    min-width: 90px;
+    min-height: 90px;
+    margin-left: 10px;
+  }
+}
+
+
+
+.container {
+  background-color: var(--color-primary);
+  padding-left: 1.25rem;  
+  padding-right: 1.25rem;
+  padding-top: 0.25rem;  
+  padding-bottom: 0.25rem;
+}
+
+.container {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 3rem;  
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 1456px) {
+  .container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+@media (min-width: 2060px) {
+  .container {
+    padding-left: 5rem; 
+    padding-right: 5rem;
+  }
+}
+
+@media (min-width: 3080px) {
+    .super-estimate_container__OHl58 {
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}

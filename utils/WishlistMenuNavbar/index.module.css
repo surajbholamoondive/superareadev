@@ -1,0 +1,209 @@
+/* .outerDiv:hover .whiteTriangle{
+    display: block;  
+} 
+ .outerDiv:hover .likedMenu{
+    display: block;  
+} */
+.whiteTriangle {
+  display: none;
+  margin-top: 4px;
+  margin-left: 7px;
+}
+.elseContent {
+  color: #931602;
+  font-weight: bold;
+  width: fit-content;
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.h3Class {
+  padding: 0px 8px;
+  width: fit-content;
+  font-weight: 600;
+  margin-top: 5px;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+}
+.h3mob {
+  padding: 0px 2%;
+  width: fit-content;
+  font-weight: 600;
+  margin-top: 5px;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+}
+.likedMenu{
+    width: fit-content;
+    margin-left: -300px;
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1000;
+    border-radius: 8px;
+    margin-top: -7px;
+    display: none;
+    border: 1px solid rgb(232, 228, 228);
+}
+.counter {
+  width: 15px;
+  height: 15px;
+  background-color: #931602;
+  color: #ffffff;
+  font-size: 9px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0px 0px 1px 1px white;
+  padding: 1.5px
+  
+}
+@media (max-width: 768px) {
+    .counter {
+        margin-right: 2px;
+    }
+}
+
+.wrapperDiv {
+  margin-bottom: 4px;
+  /* width: fit-content; */
+  overflow-y: scroll;
+  max-height: 50vh;
+  padding: 0px 4px;
+}
+.wrapperDivMob {
+  margin-top: 10px;
+  width: fit-content;
+  overflow-y: scroll;
+  max-height: 100vh;
+  padding: 0px 12px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: 100%;
+}
+.wrapperDiv::-webkit-scrollbar {
+  width: 5px;
+}
+
+.wrapperDiv::-webkit-scrollbar-thumb {
+  background-color: #d6d6d6;
+  border-radius: 4px;
+}
+
+.singleList {
+  border-radius: 3px;
+  display: flex;
+  padding: 5px;
+  height: 90px;
+  margin: 10px 0px;
+  border-radius: 6px;
+  position: relative;
+  box-shadow: 0px 0px 2px 1px rgb(224, 224, 224);
+  width: auto;
+}
+
+
+.singleList h2 {
+  margin-left: 2px;
+  color: rgb(155, 153, 153);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 182px;
+}
+
+.singleList h5 {
+  margin-right: 10px;
+  margin-top: -6px;
+}
+
+.singleList p {
+  color: #8e9091;
+}
+
+@keyframes dropdownFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  min-width: 94px;
+  height: 100%;
+  padding: 0.25rem; 
+  margin: 0 auto;
+}
+.row {
+  width: 220px;
+  min-height: 20px;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 0.5rem; 
+}
+@media (max-width: 700px) {
+    .row {
+    width: 340px; /* mobile width */
+  }
+}
+@media (max-width: 480px) {
+    .row {
+    width: 300px; 
+  }
+}
+
+@media (max-width: 430px) {
+    .row {
+    width: 260px; 
+  }
+}
+@media (max-width: 380px) {
+    .row {
+    width: 220px;
+  }
+}
+@media (max-width: 350px) {
+    .row {
+    width: 210px; 
+  }
+}
+@media (max-width: 400px) {
+  .imageContainer {
+    min-width: 80px;
+  }
+}
+
+@media (max-width: 360px) {
+  .imageContainer {
+    min-width: 75px;
+  }
+}
+@media (max-width: 320px) {
+  .imageContainer {
+    min-width: 75px;
+  }
+}
+
+.coverImage {
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+@media (max-width: 430px) {
+  .imageContainer {
+    min-width: 80px;
+  }
+}
+
+@media (max-width: 375px) {
+  .imageContainer {
+    min-width: 75px;
+  }
+}

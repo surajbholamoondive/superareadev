@@ -1,0 +1,10 @@
+{
+    "proxies": {
+      "default": {
+        "httpProxy": "http://proxy-server:port",
+        "httpsProxy": "http://proxy-server:port",
+        "noProxy": "localhost,127.0.0.1"
+      }
+    }
+  }
+  

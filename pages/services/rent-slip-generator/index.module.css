@@ -1,0 +1,11 @@
+.image{
+    background: url('../../../assets/postpropertyimage/menn.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.customSection {
+  background-color: white;
+  margin: auto;
+  border-radius: 0.75rem;
+  margin: 0px auto 10px auto;
+}

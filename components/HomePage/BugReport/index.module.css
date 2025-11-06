@@ -1,0 +1,207 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000000;
+}
+ 
+.modalContent {
+    width: 80%;
+    height: 100%;
+    overflow-y: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+ 
+.contactButton {
+    position: fixed;
+    bottom: -6px;
+    left: -1px;
+    background-color: #931602b9;
+    border-radius: 50px 50px 0px 0px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    transform: translateY(-50%) rotate(90deg);
+    border: 1px solid white; 
+}
+ 
+.contactButtonIcon {
+    width: 15px;
+    height: 25px;
+    padding-bottom: 4px;
+}
+ 
+.servicesComponent {
+    width: 100%;
+    padding: 3%;
+    padding-left: 8%;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+ 
+.closeIcon {
+    width: 35px;
+    height: 35px;
+    right: 10px;
+    border-radius: 50%;
+    border: #000 solid 2px;
+    padding: 10px;
+    margin-top: -20px;
+    margin-right: -60px ;
+    cursor: pointer;
+}
+ 
+.heading {
+    color: #a52828;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+ 
+.paragraph {
+    font-style: normal;
+    letter-spacing: 0.5px;
+}
+ 
+.fieldName {
+    font-variant-numeric: lining-nums proportional-nums;
+    font-style: normal;
+    line-height: 22px;
+    margin-bottom: 8px;
+    margin-top: 1%;
+}
+ 
+.inputField {
+    width: 46vw;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: #ffffff;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 7px;
+    color: rgb(80, 80, 80);
+    padding-left: 7px;
+}
+ 
+.inputField:focus {
+    outline: none;
+}
+ 
+.fileInputField {
+    width: 18vw;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: #e3e3e3;
+    border: 1.5px solid rgb(167, 167, 167);
+    border-radius: 7px;
+    color: rgb(88, 88, 88);
+    font-size: 12px;
+    padding-left: 7px;
+    padding-top: 8px;
+ 
+}
+.fileInputField:focus {
+    outline : none;
+}
+ 
+.textArea {
+    width: 97.7%;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 2px solid #000000;
+    background-color: white;
+    color: rgb(64, 64, 64);
+    padding: 5px;
+ 
+}
+ 
+.textArea:focus {
+    outline: none;
+}
+ 
+.button {
+    display: inline-flex;
+    padding: 9px 30px;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 6px;
+    background: #802424;
+    color: white;
+    font-style: normal;
+    line-height: 150%;
+}
+ 
+@media screen and (max-width: 767px) {
+    .servicesComponent {
+        width: 100%;
+        padding: 9%;
+        border-radius: 10px;
+        height: fit-content;
+    }
+ 
+    .heading {
+ 
+        text-align: left;
+    }
+ 
+    .closeIcon {
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        border-radius: 50%;
+        padding: 8px;
+    }
+ 
+    .inputField {
+        width: 65vw;
+    }
+ 
+    .textArea {
+        width: 64.8vw;
+    }
+}
+ 
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .textArea {
+        width: 68.8vw;
+    }
+}
+ 
+@media screen and (min-width: 1280px) and (max-width: 1923px) {
+    .textArea {
+        width: 98.4%;
+    }
+}
+ 
+.mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+}
+ 
+.mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+}

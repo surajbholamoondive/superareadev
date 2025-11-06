@@ -1,0 +1,139 @@
+.servicesComponent {
+  width: 88%;
+  max-width: 1300px;
+  margin: auto;
+  margin-bottom: 70px;
+  margin-top: 40px;
+}
+.slideWrapper{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.heading {
+  font-variant-numeric: lining-nums proportional-nums;
+  margin-left: 30px;
+}
+
+.underline {
+  width: 350px;
+  height: 5px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #c88e20;
+}
+
+.wrapper {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1145px) {
+  
+  .wrapper {
+    width: 60%;
+  }
+
+}
+
+
+@media screen and (min-width: 550px) and (max-width: 767px) {
+  
+  .wrapper {
+    width: 70%;
+  }
+
+}
+
+
+@media screen and (max-width: 545) {
+
+
+  .wrapper {
+    width: 80%;
+
+  }
+}
+.slider {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.slide {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.dots {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot:hover {
+  background-color: #999;
+}
+
+/* .active {
+  background-color: #a6261c; 
+} */
+
+
+
+  .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 250px;
+  gap: 3rem;
+}
+
+
+.dotsContainer {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+  gap: 8px;
+  padding-bottom: 12px;
+}
+
+
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.dot.activeDot {
+  background-color: #a41c1c !important; 
+}
+
+

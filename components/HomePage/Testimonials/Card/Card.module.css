@@ -1,0 +1,161 @@
+.card {
+  max-height: 320px;
+  flex-shrink: 0;
+  background-color: #fff;
+  border: 2px solid #003e71;
+  border-radius: 20px;
+  position: relative;
+  margin-left: 40px;
+  margin-right: 5px;
+  max-width: 350px;
+  width: 31%;
+}
+
+.imageNameDiv {
+  display: flex;
+  width: 100%;
+  margin-top: 8%;
+  margin-left: 10%;
+  position: relative;
+}
+
+.image {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 1.5px solid #003e71;
+  padding: 2px;
+  object-fit: cover;
+}
+
+.name {
+  margin-left: 4%;
+  position: absolute;
+  top: 28%;
+  left: 20%;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.storyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.story {
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  height: 130px;
+  color: #666;
+  line-height: 23px;
+  cursor: pointer;
+  overflow: scroll;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+.story::-webkit-scrollbar {
+  display: none;
+}
+
+.story:hover::-webkit-scrollbar {
+  width: 2px;
+  display: unset;
+}
+
+.story::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 4px rgb(239, 238, 238);
+  border-radius: 1px;
+}
+.story::-webkit-scrollbar-thumb {
+  background: rgb(175, 175, 175);
+  border-radius: 1px;
+}
+
+.story:hover {
+  display: inherit;
+}
+
+.cityTag {
+  position: absolute;
+  bottom: 6%;
+  left: 10%;
+  font-size: 14px;
+ font-weight: 500;
+  margin-top: 15px;
+}
+
+.postedTag {
+  position: absolute;
+  bottom: 6%;
+  right: 10%;
+  font-size: 14px;
+ font-weight: 500;
+  margin-top: 15px;
+}
+.cityUnderline {
+  width: 90%;
+  height: 3px;
+  flex-shrink: 0;
+  background: #a37f4f;
+}
+.postedAtUnderline {
+  width: 95%;
+  height: 3px;
+  flex-shrink: 0;
+  background: #a37f4f;
+}
+
+@media screen and (max-width: 768px) {
+  .image {
+    width: 50px;
+    height: 50px;
+  }
+  .name {
+    margin-left: 6%;
+    position: absolute;
+    font-size: 14px;
+    top: 28%;
+    left: 18%;
+  }
+  .card {
+    left: -1%;
+    width: 300px;
+    margin: 0 4%;
+  }
+  .story {
+    font-size: 12px;
+    line-height: 21px;
+  }
+  .cityTag {
+    font-size: 10px;
+  }
+
+  .postedTag {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .card {
+    left: -1%;
+    width: 300px;
+    margin: 0 4%;
+    height: 280px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .card {
+    left: -1%;
+    width: 300px;
+    margin: 0 4%;
+  }
+  .cityTag {
+    font-size: 11px;
+  }
+  .postedTag {
+    font-size: 11px;
+  }
+}

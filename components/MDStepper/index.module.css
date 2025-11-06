@@ -1,0 +1,108 @@
+.mainStepper {
+  width: 100%;
+}
+
+.mainStepContainer {
+  width: 100%;
+}
+
+.step {
+  display: flex;
+  justify-content: start;
+  gap: 8px;
+  width: 100%;
+  font-weight: 500;
+  padding: 5px;
+}
+
+.borderTitle {
+  text-align: start;
+}
+
+.titleDiv {
+  width: 100%;
+  /* background: rgb(56, 126, 56); */
+}
+
+.circle {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: gray;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.contentContainer {
+  padding-left: 24px;
+}
+
+
+.lineContainer {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 18px;
+  margin-bottom: 10px;
+}
+
+
+.line {
+  width: 0.1px;
+  background-color: black;
+}
+
+.content {
+  padding: 0px 20px 10px 20px;
+  width: fit-content;
+  animation: slideIn 0.5s ease forwards;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 19px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(1, 129, 145);
+  padding: 20px;
+  width: auto;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* margin-top: 10px; */
+}
+
+.button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Add shadow on hover */
+  background-color: rgb(9, 96, 107)
+}
+
+.iconDiv {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+
+.animation {
+  animation: slideIn 0.5s ease forwards;
+}
+
+.slide-in {
+  transition: height 0.5s ease;
+  overflow: hidden;
+}

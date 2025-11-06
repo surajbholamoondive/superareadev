@@ -1,0 +1,18 @@
+.quillContainer :global(.ql-toolbar) {
+  border-radius: 8px 8px 0 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.quillContainer :global(.ql-container.ql-snow) {
+  border-radius: 0 0 8px 8px;
+  border-top: none;
+  height: 300px !important;
+}
+
+.quillContainer :global(.ql-editor) {
+  min-height: 300px !important;
+  max-height: 300px !important;
+  overflow-y: auto !important;
+  padding: 12px !important;
+  box-sizing: border-box;
+}

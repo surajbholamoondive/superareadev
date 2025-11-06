@@ -1,0 +1,38 @@
+.gridContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -0.5rem;
+  }
+  
+  .gridItem {
+    padding: 0.5rem;
+  }
+  
+  @media (min-width: 600px) {
+    .gridItemSm {
+      flex: 0 0 calc(100% / 12 * var(--sm));
+      max-width: calc(100% / 12 * var(--sm));
+    }
+  }
+  
+  @media (min-width: 960px) {
+    .gridItemMd {
+      flex: 0 0 calc(100% / 12 * var(--md));
+      max-width: calc(100% / 12 * var(--md));
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .gridItemLg {
+      flex: 0 0 calc(100% / 12 * var(--lg));
+      max-width: calc(100% / 12 * var(--lg));
+    }
+  }
+  
+  @media (min-width: 1920px) {
+    .gridItemXl {
+      flex: 0 0 calc(100% / 12 * var(--xl));
+      max-width: calc(100% / 12 * var(--xl));
+    }
+  }
+  

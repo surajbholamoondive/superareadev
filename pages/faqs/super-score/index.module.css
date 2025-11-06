@@ -1,0 +1,270 @@
+.hcolor {
+  color: #0168A2;
+}
+
+.circleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle1 {
+  background-color: white;
+  height: 180px;
+  width: 180px;
+  border: 5px #0168A2 solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  z-index: 5;
+}
+
+.circle2 {
+  background-color: white;
+  height: 180px;
+  width: 180px;
+  border: 5px #AE3D2B solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-left: -3%;
+  z-index: 6;
+}
+
+.circle3 {
+  background-color: white;
+  height: 180px;
+  width: 180px;
+  border: 5px #8CB7B2 solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-left: -3%;
+  z-index: 7;
+}
+
+.circle4 {
+  background-color: white;
+  height: 180px;
+  width: 180px;
+  border: 5px #A37F4F solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-left: -3%;
+  z-index: 8;
+}
+
+.circle5 {
+  background-color: white;
+  height: 180px;
+  width: 180px;
+  border: 5px #9DACA1 solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-left: -3%;
+  z-index: 9;
+}
+
+.circle6 {
+  background-color: white;
+  height: 180px;
+  width: 180px;
+  border: 5px #0168A2 solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-left: -3%;
+  z-index: 9;
+
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.morlogo {
+  background-image: url('../../../assets/MScore/mscore\ black.svg');
+  width: 10px;
+}
+
+@media (max-width:1050px) {
+  .circle1 {
+    height: 130px;
+    width: 130px;
+  }
+
+  .circle2 {
+    height: 130px;
+    width: 130px;
+  }
+
+  .circle3 {
+    height: 130px;
+    width: 130px;
+  }
+
+  .circle4 {
+    height: 130px;
+    width: 130px;
+  }
+
+  .circle5 {
+    height: 130px;
+    width: 130px;
+  }
+
+  .circle6 {
+    height: 130px;
+    width: 130px;
+  }
+
+  .img1 {
+    height: 40px;
+    width: 40px;
+  }
+
+  .img2 {
+    height: 55px;
+    width: 60px;
+    margin-bottom: -20px;
+  }
+
+  .img3 {
+    height: 40px;
+    width: 40px;
+  }
+
+  .img4 {
+    height: 40px;
+    width: 40px;
+  }
+
+  .img5 {
+    height: 50px;
+    width: 50px;
+  }
+
+  .img6 {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media (max-width:740px) {
+  .wrapper {
+    width: 85%;
+    flex-wrap: wrap;
+  }
+  .circle1 {
+    height: 130px;
+    width: 130px;
+    margin-left: 0%;
+
+  }
+
+  .circle2 {
+    height: 130px;
+    width: 130px;
+    margin-left: -5%;
+
+  }
+
+  .circle3 {
+    height: 130px;
+    width: 130px;
+    margin-left: 0%;
+  }
+
+  .circle4 {
+    height: 130px;
+    width: 130px;
+    margin-left: -5%;
+
+  }
+
+  .circle5 {
+    height: 130px;
+    width: 130px;
+    margin-left: 0%;
+  }
+
+  .circle6 {
+    height: 130px;
+    width: 130px;
+    margin-left: -5%;
+
+  }
+}
+
+@media (max-width:540px) {
+  .wrapper {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+
+
+
+.container {
+  background-color: var(--color-primary);
+  padding-left: 1.25rem;  
+  padding-right: 1.25rem;
+  padding-top: 0.25rem;  
+  padding-bottom: 0.25rem;
+}
+
+.container {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 3rem;  
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 1456px) {
+  .container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+@media (min-width: 2060px) {
+  .container {
+    padding-left: 5rem; 
+    padding-right: 5rem;
+  }
+}
+
+@media (min-width: 3080px) {
+    .super-estimate_container__OHl58 {
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}

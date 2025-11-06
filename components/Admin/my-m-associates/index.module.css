@@ -1,0 +1,94 @@
+.tabSpan {
+  background-color: brown;
+  color: white;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left:0.2px ;
+  font-size: 10px;
+}
+.selectCityStyle {
+  background-color: #ededed;
+  padding: 4px;
+  text-align: left;
+  border-radius: 4px;
+  margin-right: 8px;
+  width: 140px;
+  margin-top: 8px;
+}
+.selectedDateStyle {
+  background-color: #ededed;
+  padding: 4px;
+  text-align: left;
+  border-radius: 4px;
+  margin-right: 23px;
+  width: 150px;
+  margin-top: 8px;
+}
+
+.selectBoxStyle {
+  display: flex;
+  margin-left: 361px;
+  gap: 6px;
+}
+.tabApprovedStyle {
+  text-transform: none;}
+  
+.tabPendingStyle {
+  text-transform: none;
+}
+.tabListStyle {
+  display: flex;
+  gap: 20px;
+  margin-top: 24px;
+  margin-left: 28px;
+  white-space: nowrap;
+}
+
+.outerDiv {
+  display: flex;
+  align-items: baseline;
+}
+.tabContext {
+  margin-left: 24px;
+}
+.customPopoverWidth {
+  width: 450px !important;
+  height: 480px !important;
+  border-radius: 4px !important;
+}
+.customScroll {
+  overflow-y: auto;
+}
+.customScroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 4px #ffffff;
+  border-radius: 4px;
+}
+
+.customScroll::-webkit-scrollbar-thumb {
+  background: #931602;
+  border-radius: 4px;
+}
+
+.customScroll::-webkit-scrollbar {
+  width: 5px;
+  display: unset;
+}
+
+.customScroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 4px #ffffff;
+  border-radius: 4px;
+}
+
+.customScroll::-webkit-scrollbar-thumb {
+  background: #931602;
+  border-radius: 4px;
+}
+
+.customScroll::-webkit-scrollbar {
+  width: 5px;
+  display: unset;
+}

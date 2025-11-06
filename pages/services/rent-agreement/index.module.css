@@ -1,0 +1,300 @@
+.customSection {
+  background-color: white;
+  margin: auto;
+  border-radius: 0.75rem;
+  margin: 0px auto 10px auto;
+}
+
+.paragraph {
+  color: #7f8282;
+  margin: 10px 0px 40px 30px;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.Details {
+  width: 90%;
+  max-width: 1000px;
+  text-align: left;
+  border: 1px solid var(--secondary-color);
+  border-radius: 30px;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+.summary {
+  color: var(--secondary-color);
+  background-color: var(--secondary-bg);
+  border: 0px;
+  padding: 14px 2px;
+  padding-left: 3%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.innerSummary {
+  padding: 5px 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.innerSummary div {
+  width: 300px;
+  max-width: 400px;
+  margin: 10px 0px;
+  text-align: left;
+}
+
+.innerSummary h4 {
+  color: var(--secondary-color);
+  margin-bottom: 4px;
+}
+
+.InputValue {
+  width: 100%;
+  padding: 4px 8px;
+  color: #222323;
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+}
+
+.InputValue:focus {
+  outline: none;
+}
+
+.button {
+  margin: 30px 0px 80px;
+  padding: 9px 36px;
+  color: var(--secondary-color);
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid var(--secondary-color);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.AmenityValue {
+  width: 300px;
+  padding: 7px 15px;
+  border: 1px solid var(--secondary-color);
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.AmenityValue:focus {
+  outline: none;
+}
+
+.addAmenityButton {
+  padding: 5px 14px;
+  background-color: var(--secondary-color);
+  color: white;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.addAmenityButton:hover {
+  opacity: 0.8;
+}
+
+.amenityDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.amenityName {
+  padding: 5px;
+  color: var(--secondary-color);
+}
+
+.amenityButton {
+  display: flex;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.amenityButton button {
+  color: var(--secondary-color);
+  padding: 5px 9px;
+  border-radius: 5px;
+}
+
+.amenityButton h4 {
+  margin: 0px 10px;
+  width: 21px;
+  padding: 5px 5px;
+}
+
+.amenityButton button:hover {
+  opacity: 0.8;
+}
+
+/* pdf css */
+.functionButton {
+  color: #ffffff;
+  background-color: var(--secondary-color);
+  width: 160px;
+  margin: 20px auto;
+  padding: 6px 10px;
+  border-radius: 10px;
+  display: block;
+}
+
+.functionButton:hover {
+  opacity: 0.7;
+}
+
+.pdfDiv {
+  width: 90%;
+  max-width: 700px;
+  background-color: white;
+  padding: 40px;
+  margin: auto;
+  box-shadow: 0px 0px 4px 1px rgb(221, 221, 221);
+}
+
+.Lines li {
+  margin: 30px;
+  margin-bottom: 40px;
+  text-align: left;
+  list-style: disc;
+}
+
+@media print {
+  .functionButton {
+    display: none !important;
+  }
+}
+
+/* media queries */
+
+/* (phones) */
+@media only screen and (max-width: 767px) {
+  .paragraph {
+    margin: 12px 0px;
+    font-size: 1.2rem;
+  }
+
+  .Details {
+    width: 95%;
+    margin-top: 15px;
+  }
+
+  .summary {
+    padding: 6px 2px;
+    padding-left: 3%;
+    box-shadow: 0px 0px 5px 1px white;
+  }
+
+  .innerSummary {
+    padding: 5px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .innerSummary div {
+    width: 95%;
+    margin: 7px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .innerSummary h2 {
+    color: var(--secondary-color);
+  }
+
+  .button {
+    padding: 5px 12px;
+    height: fit-content;
+    letter-spacing: 0.2px;
+
+  }
+
+  .amenityName {
+    padding: 2px;
+  }
+
+  .AmenityValue {
+    width: 100%;
+    max-width: none;
+  }
+
+  .addAmenityButton {
+    padding: 4px 7px;
+  }
+
+  .amenityButton {
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .amenityButton button {
+    padding: 0px 8px;
+  }
+
+  /* pdf form */
+  .functionButton {
+    width: 100px;
+  }
+
+  .pdfDiv {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .Lines li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .customSection h1{
+    font-size: 2rem;
+  }
+}
+
+/* (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1150px) {
+  .Details {
+    width: 95%;
+  }
+
+  .innerSummary div {
+    width: 45%;
+  }
+
+  .InputValue {
+    padding: 5px 5px;
+    color: var(--secondary-color);
+    width: 236px;
+  }
+
+  .AmenityValue {
+    width: 100%;
+    max-width: none;
+  }
+
+  .pdfDiv {
+    width: 95%;
+  }
+}

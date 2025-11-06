@@ -1,0 +1,122 @@
+.servicesComponent {
+  width: 100%;
+  max-width: 1500px;
+  padding: 60px 80px 30px 15px;
+  margin: auto;  
+}
+
+.heading {
+  color: #283646;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  margin-left: 65px;
+}
+
+.underline {
+  width: 230px;
+  height: 5px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #c88e20;
+  margin-left: 0;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  padding: 20px 30px 20px 10px;
+  margin-top: 20px;
+  gap: 1px;
+}
+
+.wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .servicesComponent {
+    padding: 60px 0px 30px 10px;
+  }
+  .heading {
+    font-size: 28px;
+    margin-left: 30px;
+    text-align: start;
+  }
+  .underline {
+    width: 175px;
+  }
+  .wrapper {
+    margin-top: 40px;
+    overflow: scroll;
+  }
+  .wrapper::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+  .servicesComponent {
+    padding: 60px 0px 30px 10px;
+  }
+  .heading {
+    color: #283646;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    margin-left: 40px;
+  }
+
+  .underline {
+    width: 230px;
+    height: 5px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #c88e20;
+    margin-left: 0;
+  }
+
+  .wrapper {
+    overflow: scroll;
+  }
+
+  .wrapper::-webkit-scrollbar {
+    display: none;
+  }
+}
+@media screen and (max-width: 550px) {
+  .servicesComponent {
+    padding: 20px 0px 30px;
+  }
+  .wrapper {
+    padding-left: 8px;
+    width: 100%;
+    gap: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+
+  .heading {
+    color: #283646;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 24px;
+  }
+  .underline {
+    width: 170px;
+    height: 5px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #c88e20;
+  }
+}

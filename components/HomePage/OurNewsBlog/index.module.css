@@ -1,0 +1,138 @@
+.servicesComponent {
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.heading {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  text-align: left;
+  display: inline-block;
+}
+
+.headingContainer {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.underline {
+  width: 160px;
+  height: 6px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #c88e20;
+  margin-top: 5px;
+}
+
+.button {
+  display: flex;
+  width: 140px;
+  height: 45px;
+  padding: 10px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 11px;
+  background: #89a190;
+  color: #f9fafc;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.cardsDiv {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  gap: 7%;
+  padding: 20px 0px;
+  margin-top: 20px;
+}
+.cardsDiv::-webkit-scrollbar {
+  display: none;
+}
+
+.webCard{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  gap: 7%;
+  padding: 20px 0px;
+  margin-top: 20px;
+}
+.webCard::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .button {
+    width: 130px;
+    height: 45px;
+  }
+  .cardsDiv {
+    overflow-x: scroll;
+    gap: 15%;
+    width: 100%;
+    padding-left: 5%;
+  }
+
+  .cardsDiv::-webkit-scrollbar {
+    display: none;
+  }
+
+  .heading {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-align: left;
+    margin-left: -20px;
+    display: inline-block;
+  }
+
+  .headingContainer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .underline {
+    width: 130px;
+    height: 6px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #c88e20;
+    margin-left: -20px;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    width: 130px;
+    height: 45px;
+  }
+
+  .cardsDiv {
+    overflow-x: scroll;
+    gap: 5%;
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  .cardsDiv::-webkit-scrollbar {
+    display: none;
+  }
+  .underline {
+    width: 115px;
+    margin-left: 0;
+  }
+}

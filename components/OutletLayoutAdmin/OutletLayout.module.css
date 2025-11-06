@@ -1,0 +1,264 @@
+.wrapper {
+
+  width: 100%;
+  margin: 0 auto;
+ height: calc(110vh);
+  display: flex;
+}
+
+
+.outletContainer {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #fafafa;
+  border-radius: 12px;
+    position: relative;
+    align-items: stretch;
+}
+
+
+.sidebar {
+  flex: 0 0 250px;
+  border-right: 1px solid #e5e7eb;
+  background-color: #fff;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+  background-color: #fff;
+
+  background: var(--primary-bg);
+  border: 1px solid #931602;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+
+  margin: 1rem;
+ position: static;
+}
+
+
+@media (max-width: 768px) {
+  .outletContainer {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    flex: none;
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e5e7eb;
+    display: none;
+  }
+
+  .content {
+    margin: 0.5rem;
+    /* Reduce margins for mobile */
+    padding: 0rem;
+    border-radius: 0.5rem;
+    border: none;
+  }
+
+
+  .wrapper {
+
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+  }
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1919px) {
+  .sidebar {
+    padding: 0.8rem;
+  }
+
+  .content {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 843px) and (max-width: 1104px) and (orientation: portrait) {
+
+  .sidebar {
+    display: none;
+  }
+
+}
+
+@media (min-width: 481px) and (max-width: 834px) and (orientation: portrait) {
+
+
+  .sidebar {
+    display: none;
+  }
+
+  .content {
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1194px) and (orientation: landscape) {
+
+
+  .content {
+    margin: 0.75rem;
+    padding: 1.25rem;
+  }
+}
+
+
+
+@media (max-width: 926px) and (max-height: 428px) and (orientation: landscape) {
+  .sidebar {
+    display: none;
+  }
+
+  .content {
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .wrapper {
+    height: auto;
+  }
+}
+
+
+
+.mascotContainer {
+  right: -1rem;
+  bottom: 0rem;
+  display: block;
+  position: absolute;
+}
+.mascotImageWrapper {
+  position: relative;
+  width: 380px;
+  height: 340px;
+}
+
+
+@media  (max-width: 767px) {
+  .mascotContainer {
+    display: none;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
+  .mascotImageWrapper {
+    width: 300px;
+    height: 260px;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1024px) {
+
+  .mascotImageWrapper {
+    width: 270px;
+    height: 230px;
+  }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1199px) {
+
+  .mascotImageWrapper {
+    width: 310px;
+    height: 270px;
+  }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399px) and (orientation: portrait) {
+
+  .mascotImageWrapper {
+    width: 350px;
+    height: 310px;
+  }
+}
+
+
+@media (min-width: 1400px) and (max-width: 1599px) {
+  .mascotImageWrapper {
+    width: 420px;
+    height: 380px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1599px) and (orientation: portrait) {
+
+  .mascotImageWrapper {
+    width: 380px;
+    height: 340px;
+  }
+}
+
+
+@media (min-width: 1600px) and (max-width: 1919px) {
+ 
+  .mascotImageWrapper {
+    width: 460px;
+    height: 400px;
+  }
+}
+@media (min-width: 1600px) and (max-width: 1919px) and (orientation: portrait) {
+ 
+  .mascotImageWrapper {
+    width: 420px;
+    height: 360px;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+  
+  .mascotImageWrapper {
+    width: 500px;
+    height: 440px;
+  }
+}
+@media (min-width: 1920px) and (max-width: 2560px) and (orientation: portrait) {
+
+  .mascotImageWrapper {
+    width: 440px;
+    height: 380px;
+  }
+}
+
+
+@media (min-width: 2561px) and (max-width: 3840px) {
+
+  .mascotImageWrapper {
+    width: 600px;
+    height: 520px;
+  }
+}
+@media (min-width: 2561px) and (max-width: 3840px) and (orientation: portrait) {
+
+  .mascotImageWrapper {
+    width: 520px;
+    height: 460px;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .mascotContainer {
+    display: none;
+  }
+}

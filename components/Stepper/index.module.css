@@ -1,0 +1,9 @@
+/* index.module.css */
+.border {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+
+}

@@ -1,0 +1,5 @@
+# Team reviewers for the entire repository
+* @MoonDiveCo/CodeApprovers
+
+# Specific team reviewers for certain directories or files
+/mor-fe-nextjs/ @MoonDiveCo/CodeApprovers

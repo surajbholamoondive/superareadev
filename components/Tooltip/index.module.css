@@ -1,0 +1,37 @@
+.tooltipContainer {
+    position: relative;
+}
+
+.infoIcon {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: -3px;
+}
+
+.tooltipText {
+    visibility: hidden;
+    background-color: #e9d0cc;
+    border: 1px solid #931602;
+    color: #931602;
+    padding: 3px 8px;
+    position: absolute;
+    font-size: 12px;
+    z-index: 10000;
+    bottom: 1.3rem;
+    left: 1.5rem;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+    border-radius: 4px 4px 4px 0px;
+}
+@media (max-width: 576px) {
+    .tooltipText {
+        left: -4rem;
+    }
+}
+
+
+.tooltipContainer:hover .tooltipText {
+    visibility: visible;
+    opacity: 1;
+}

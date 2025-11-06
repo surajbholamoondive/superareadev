@@ -1,0 +1,84 @@
+.Viwers {
+    width: 194px;
+    height: 69px;
+    flex-shrink: 0;
+  }
+   
+  .para::-webkit-scrollbar {
+    display: none;
+  }
+   
+  .heading {
+    color: var(--black-black-70, #283646);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 160%; /* 160% */
+    text-align: center;
+  }
+  .underline {
+    width: 10%;
+    height: 5px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #c88e20;
+    margin: auto;
+  }
+   
+  @media (max-width: 768px) {
+    .underline {
+      width: 40%;
+    }
+    .heading {
+     
+      font-size: 28px;
+     
+    }
+  }
+   
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .underline {
+      width: 18%;
+    }
+  }
+   
+  @media (min-width: 1201px) {
+    .underline {
+      width: 15%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

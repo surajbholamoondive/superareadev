@@ -1,0 +1,72 @@
+.slideButton {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 1px solid #931602;
+    background: white;
+}
+
+.slideButton:hover,
+.slideButton:active {
+    background: #931602;
+}
+
+
+.slideButton:hover img,
+.slideButton:active img {
+    filter: brightness(0) invert(1);
+}
+
+.RightSlideButton {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 1px solid #931602;
+    background: white;
+    transform: rotate(180deg);
+}
+
+.RightSlideButton:hover,
+.RightSlideButton:active {
+    background: #931602;
+}
+
+.RightSlideButton:hover img,
+.RightSlideButton:active img {
+    filter: brightness(0) invert(1);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .slideButton{
+        width: 30px;
+        height: 30px;
+    }
+    .RightSlideButton{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .slideButton{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        opacity: 0.7;
+        left: 0;
+        top: 160px;
+        margin-left: 40px;
+        z-index: 2;
+    }
+    .RightSlideButton{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        opacity: 0.7;
+        right: 0;
+        top: 160px;
+        z-index: 2;
+    }
+}

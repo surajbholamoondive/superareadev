@@ -1,0 +1,129 @@
+.Viwers {
+  width: 194px;
+  height: 69px;
+  flex-shrink: 0;
+}
+.imagehault {
+  display: flex;
+  height: 71px;
+  width: 71px;
+}
+
+/* agent overview */
+.agentImage {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  padding: 2px;
+  border: 2px solid #931602;
+}
+
+.defaultImage{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.nameDiv {
+  letter-spacing: 0.8px;
+}
+
+/* furnishing icon */
+.furnishIcon {
+  background-color: #b9dce1;
+  padding: 7px;
+  border-radius: 49% 0px 0px 49%;
+  width: 50%;
+  padding-left: 14px;
+}
+
+/* .innerDiv{
+    border-radius: 0 0 15px 15px;
+} */
+/* .imageDiv{
+    width: 60px;
+    height: 60px;
+} */
+
+.description ul {
+  list-style-type: disc;
+}
+
+@media screen and (max-width: 768px) {
+  .mobileview {
+    height: 20px;
+    width: 100%;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 5px;
+  }
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 5px;
+}
+.blur-effect {
+  filter: blur(5px);
+  transition: filter 500ms;
+}
+
+
+.overview :global(ul) {
+  list-style-type: disc !important;
+  padding-left: 1.5rem !important;
+  margin: 1rem 0 !important;
+}
+
+.overview :global(ul li) {
+  margin-bottom: 0.5rem !important;
+  list-style-type: disc !important;
+}
+
+.overview :global(ul li.ql-indent-1) {
+  list-style-type: circle !important;
+  margin-left: 2.5rem !important;
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.25rem !important;
+}
+@media (max-width: 1190px) {
+  .logo{
+      display: none;
+  }
+}
+@media (min-width: 450px) and (max-width: 1036px){
+  .contactMores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .details{
+    width: 400px;
+  }
+  .detaildiv{
+    gap: 115px;
+  }
+  .serving{
+    gap: 57px;
+  }
+  .languagediv{
+    width: 250px;
+  }
+}
+@media (max-width:850px){
+  .ownerCard{
+    flex-direction: column;
+    gap: 12px;
+  }
+  .ownerDetails{
+    width: 90%;
+  }
+  .userCard{
+    width:92%;
+  }
+}

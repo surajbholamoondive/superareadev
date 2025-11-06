@@ -1,0 +1,213 @@
+/* PropertyDetailsForm.module.css */
+.firstparent{
+  width:100%;
+}
+
+.parent{
+  width: 100%;
+}
+.property_form {
+  padding: 2rem;
+}
+
+
+
+/* YourComponent.css */
+/* Hide the connector line between steps */
+.MuiStepConnector-line {
+  display: none;
+}
+
+/* Adjust the spacing between steps if needed */
+.MuiStepConnector-root {
+  margin-left: 0; /* You can adjust this value to change the horizontal spacing between steps */
+}
+
+
+.property_button {
+  border-radius: 2rem;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.property-button-selected {
+  background-color: #931602;
+  color: #ffffff;
+  border: 2px solid #931602;
+}
+
+.property-button-unselected {
+  background-color: #ffffff;
+  color: #6b7280;
+  border: 2px solid #931602;
+}
+
+.input-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.datePicker div {
+  font-size:14px;
+  padding: 2px;
+  font-family: inherit;
+  text-align: center;
+}
+
+.datePicker div input :hover {
+  background-color: white;
+}
+
+.datePicker div input{
+   padding: 8px;
+   text-align: center;
+}
+
+.datePicker div div button:hover{
+  background-color: white;
+}
+
+.datePicker div div div button{
+  background-color: rgb(151, 53, 53);
+}
+.datePicker div input:hover{
+  border-radius: 4px;
+}
+
+
+/* Media query for tablets and larger screens */
+@media screen and (min-width: 768px) {
+  .parent{
+    width: 80%;
+  }
+  .subparent {
+    width: 95%;
+  }
+  
+  .input_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .input_row input[type="text"],
+  .input_row input[type="number"] {
+    flex: calc(50% - 0.5rem); /* Two inputs per row with some spacing */
+    margin-right: 1rem; /* Add margin between inputs in a row */
+  }
+
+  /* .mt-4 {
+    margin-top: 1rem;
+  } */
+}
+
+/* PropertyDetails.module.css */
+.disabledButton {
+  opacity: 0.5; /* Set the desired opacity for disabled buttons */
+  pointer-events: none; /* Disable pointer events on disabled buttons */
+}
+
+
+/* Media query for laptops and larger screens */
+
+/* Media query for laptops and larger screens */
+@media screen and (min-width: 1024px) {
+  .parent{
+    width: 100%;
+  }
+  .subparent {
+    width: 100%;
+  }
+ 
+  .input-row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .input-row input[type="text"],
+  .input-row input[type="number"] {
+    flex: 1; /* One input per row on larger screens */
+    margin-right: 1rem; /* Add margin between inputs in a row */
+  }
+
+  .mt-4 {
+    margin-top: 1rem;
+  }
+}
+/* @media screen and (min-width: 1024px) and (max-width: 1130px) {
+  .parent{
+    width: 100%;
+  }
+} */
+
+@media screen and (max-width: 767px) {
+  /* Display inputs stacked vertically on mobile */
+    
+  
+  .input-row {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  .property_label {
+    text-align: left;
+  }
+  
+}
+
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Tooltip text */
+.tooltipText {
+  visibility: hidden;
+  width: 180px;
+  background-color: #555;
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -90px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+/* Info icon */
+.infoIcon {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Show tooltip text on hover */
+.tooltip:hover .tooltipText {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .parent{
+    width: 100%;
+  }
+  .subparent{
+    width:100%;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 768px) {
+  /* Display inputs stacked vertically on mobile */
+  .parent{
+    width: 100%;
+  }
+  .subparent {
+    width: 100%;
+  }
+}

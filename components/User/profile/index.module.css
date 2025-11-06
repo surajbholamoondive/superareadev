@@ -1,0 +1,24 @@
+.datePicker {
+  width:100%;
+  }
+.datePickerfocus {
+    outline: none; /* Removes default browser outline */
+    border: 1px solid #931602; /* Applies 1px solid border with #018191 color on focus */
+  }
+  
+ .datePicker div input{
+  font-size: 14px;
+  padding-left: 8px;
+}
+.modalScroll::-webkit-scrollbar{
+  width:5px;
+  display: unset;
+}
+.modalScroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 4px #ffffff; 
+    border-radius: 4px;
+}
+.modalScroll::-webkit-scrollbar-thumb {
+    background: #931602; 
+    border-radius: 4px;
+}

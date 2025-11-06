@@ -1,0 +1,55 @@
+ul.customList  {
+    list-style-type: disc; 
+    padding-left: 20px;
+}
+ol.customList  {
+    list-style-type: decimal; 
+    padding-left: 16px;
+}
+
+.container {
+  background-color: var(--color-primary);
+  padding-left: 1.25rem;  
+  padding-right: 1.25rem;
+  padding-top: 0.25rem;  
+  padding-bottom: 0.25rem;
+}
+
+.container {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 3rem;  
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 1456px) {
+  .container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+@media (min-width: 2060px) {
+  .container {
+    padding-left: 5rem; 
+    padding-right: 5rem;
+  }
+}
+
+@media (min-width: 3080px) {
+    .super-estimate_container__OHl58 {
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}

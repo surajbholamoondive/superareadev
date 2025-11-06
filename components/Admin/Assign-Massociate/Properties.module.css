@@ -1,0 +1,13 @@
+.propertiesContainer::-webkit-scrollbar{
+    width:5px;
+    display: unset;
+  }
+  .propertiesContainer::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 4px #ffffff;
+      border-radius: 4px;
+    }
+   
+  .propertiesContainer::-webkit-scrollbar-thumb {
+      background: #931602;
+      border-radius: 4px;
+  }

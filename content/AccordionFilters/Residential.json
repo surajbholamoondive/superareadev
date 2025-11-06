@@ -1,0 +1,24 @@
+[
+  {
+    "key": "propertySubType",
+    "heading": "Property Sub Type",
+    "filters": [
+      "Apartment",
+      "Penthouse",
+      "Flat",
+      "Residential House",
+      "Villa",
+      "Independent Villa",
+      "Kothi",
+      "Builder Floor Apartment",
+      "Studio Apartment",
+      "Residential Plot",
+      "Residential Land",
+      "Farm House",
+      "Independent Floor",
+      "Apartment with Lawn Area",
+      "Flat with Garden",
+      "Duplex"
+    ]
+  }
+]

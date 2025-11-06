@@ -1,0 +1,285 @@
+
+
+/* === Step 1 Completed === */
+.step1Completed {
+  width: 48%;
+  height: 50px;
+  background-color: #CFE6EA;
+  z-index: 10;
+  position: absolute;
+  clip-path: polygon(
+    0% 0%,
+    calc(100% - 20px) 0%,
+    100% 50%,
+    calc(100% - 20px) 100%,
+    0% 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.step1 {
+  width: 48%;
+  height: 50px;
+  background-color: var(--secondary-bg);
+  z-index: 10;
+  position: absolute;
+  clip-path: polygon(
+    0% 0%,
+    calc(100% - 20px) 0%,
+    100% 50%,
+    calc(100% - 20px) 100%,
+    0% 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step2 {
+  width: 25.3%;
+  height: 60px;
+  background-color: var(--secondary-bg);
+  left: 32.8%;
+  position: absolute;
+  z-index: 5;
+  clip-path: polygon(
+    20px 50%,
+    0% 0%,
+    calc(100% - 20px) 0%,
+    100% 50%,
+    calc(100% - 20px) 100%,
+    0% 100%
+  );
+}
+
+.step2Completed {
+  position: absolute;
+  width: 35.3%;
+  height: 60px;
+  background-color: #CFE6EA;
+  left: 32.8%;
+  z-index: 5;
+  clip-path: polygon(
+    20px 50%,
+    0% 0%,
+    calc(100% - 20px) 0%,
+    100% 50%,
+    calc(100% - 20px) 100%,
+    0% 100%
+  );
+}
+
+.step3 {
+  width: 27.5%;
+  height: 60px;
+  left: 50%;
+  z-index: 3;
+  background: var(--secondary-bg);
+  position: absolute;
+  clip-path: polygon(
+    20px 50%,
+    0% 0%,
+    calc(100% - 20px) 0%,
+    100% 50%,
+    calc(100% - 20px) 100%,
+    0% 100%
+  );
+}
+
+.step3Completed {
+  width: 27.5%;
+  height: 60px;
+  left: 50%;
+  z-index: 3;
+  background: #CFE6EA;
+  position: absolute;
+  clip-path: polygon(
+    20px 50%,
+    0% 0%,
+    calc(100% - 20px) 0%,
+    100% 50%,
+    calc(100% - 20px) 100%,
+    0% 100%
+  );
+}
+
+.step4Completed {
+  width: 55%; 
+  height: 50px;
+  left: 46%; 
+  z-index: 2;
+  background-color: #CFE6EA;
+  position: absolute;
+  clip-path: polygon(
+    20px 50%,
+    0% 0%,
+    calc(100% - 20px) 0%,
+    100% 50%,
+    calc(100% - 20px) 100%,
+    0% 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.step4 {
+  width: 55%;
+  height: 60px;
+  z-index: 2;
+  background-color: var(--secondary-bg);
+  position: absolute;
+  clip-path: polygon(
+    20px 50%,
+    0% 0%,
+    calc(100% - 20px) 0%,
+    100% 50%,
+    calc(100% - 20px) 100%,
+    0% 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+@media (max-width: 4800px) {
+  .step1 {
+    width: 50%;
+    height: 50px;
+  }
+
+  .step4 {
+    width: 50%;
+    height: 50px;
+    left: 50%;
+  }
+  .step1Completed {
+    width: 50%;
+    height: 50px;
+  }
+
+  .step4Completed {
+    width: 50%;
+    height: 50px;
+    left: 50%;
+  }
+}
+
+@media (max-width: 1024px) {
+ .step1 {
+    width: 52%;
+    height: 50px;
+  }
+
+  .step4 {
+    width: 52%;
+    height: 50px;
+    left: 50%;
+  }
+  .step1Completed {
+    width: 52%;
+    height: 50px;
+  }
+
+  .step4Completed {
+    width: 52%;
+    height: 50px;
+    left: 50%;
+  }
+}
+
+@media (max-width: 820px) {
+ .step1 {
+    width: 50%;
+    height: 50px;
+  }
+
+  .step4 {
+    width: 53%;
+    height: 50px;
+    left: 48%;
+  }
+  .step1Completed {
+    width: 50%;
+    height: 50px;
+  }
+
+  .step4Completed {
+    width: 53%;
+    height: 50px;
+    left: 48%;
+  }
+}
+
+@media (max-width: 767px) {
+  .step1 {
+    width: 50%;
+    height: 50px;
+  }
+
+  .step4 {
+    width: 50%;
+    height: 50px;
+    left: 0%;
+  }
+  .step1Completed {
+    width: 50%;
+    height: 50px;
+  }
+
+  .step4Completed {
+    width: 50%;
+    height: 50px;
+    left: 0%;
+  }
+}
+
+@media (max-width: 580px) {
+  .step1 {
+    width: 105%;
+    height: 50px;
+  }
+
+  .step4 {
+    width: 105%;
+    height: 50px;
+    left: 0;
+  }
+   .step1Completed {
+    width: 105%;
+    height: 50px;
+  }
+
+  .step4Completed {
+    width: 105%;
+    height: 50px;
+    left: 0;
+  }
+}
+
+@media (max-width: 420px) {
+.step1{
+     width: 110%;
+    height: 50px;
+}
+
+
+  .step1Completed {
+    width: 110%;
+    height: 50px;
+  }
+  .step4{
+    width: 110%;
+    height: 50px;
+    left: 0%;
+  }
+  .step4Completed{
+     width: 110%;
+    height: 50px;
+    left: 0%;
+  }
+
+ 
+}

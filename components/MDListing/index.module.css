@@ -1,0 +1,96 @@
+.tooltip {
+    position: relative;
+    cursor: pointer;
+    padding: 7px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.tooltipText {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    background-color: #000;
+    color: #fff;
+    white-space: nowrap;
+    padding: 10px 7px;
+    border-radius: 7px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.tooltipText::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    border: 15px solid;
+    border-color: #000;
+}
+
+.tooltip:hover .tooltipText {
+    top: -130%;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.step1{
+    width:180px;
+    height:55px;
+   background-color:#034f5a41;
+   z-index: 10;
+   position: absolute;
+   clip-path: polygon( 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+
+}
+
+.step2{
+    width:180px;
+    height:55px;
+    background-color:#034f5a35;
+   left:160px;
+   position: absolute;
+   clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+}
+.step3{
+    width:180px;
+    height:55px;
+    left:300px;
+    z-index: 20;
+   background: #e1dfdf;
+   position: absolute;
+   clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+}
+.step4{
+    width:200px;
+    height:55px;
+    right:0px;
+    z-index: 10;
+   background-color:whitesmoke;
+   position: absolute;
+}
+
+.child{
+    position:absolute;
+    transform:translate(50%,50%);
+}
+.child1{
+    position:absolute;
+    transform:translate(30%,25%);
+}
+.child2{
+    position:absolute;
+    transform:translate(30%,25%);
+}
+.child3{
+    position:absolute;
+    transform:translate(40%,25%);
+}
+.child4{
+    position:absolute;
+    transform:translate(28%,25%);
+}

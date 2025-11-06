@@ -1,0 +1,10 @@
+[
+    {
+        "key": "propertySubType",
+        "heading": "Property Sub Type",
+        "filters": [
+            "Farm House",
+            "Agricultural Land"
+        ]
+    }
+]

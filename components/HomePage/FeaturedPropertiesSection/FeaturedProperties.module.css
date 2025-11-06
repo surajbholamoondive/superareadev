@@ -1,0 +1,132 @@
+.dotsContainer {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+  gap: 8px;
+  padding-bottom: 12px;
+}
+
+.dot {
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.dot:hover {
+  transform: scale(1.2);
+}
+
+.activeDot {
+  background-color: #a41c1c !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #a41c1c !important;
+}
+
+.divCardSize {
+  padding: 0px;
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  overflow-x: auto; 
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  gap: 3%;
+  -webkit-overflow-scrolling: touch; 
+  touch-action: pan-x;
+  scrollbar-width: none; 
+}
+
+.wrapper::-webkit-scrollbar {
+  display: none; 
+}
+
+.contentDiv {
+  height: 180px;
+}
+
+.cardBorder {
+  border-radius: 1.4rem 1.4rem 0rem 0rem;
+  width: 100%;
+  height: 240px;
+}
+
+.featuredheading {
+  font-variant-numeric: lining-nums proportional-nums;
+  line-height: 160%;
+}
+
+@media (max-width: 768px) {
+  .underline {
+    width: 100%;
+  }
+  .divCardSize {
+    width: 287px;
+  }
+  .contentDiv {
+    height: 225px;
+  }
+  .cardBorder {
+    width: 100%;
+    max-width: 348px;
+    height: 150px;
+    background-color: black;
+  }
+}
+
+@media (max-width: 375px) {
+  .divCardSize {
+    max-width: 240px;
+  }
+  .cardBorder {
+    width: 100%;
+    max-width: 240px;
+    height: 140px;
+    background-color: black;
+  }
+}
+@media screen and (max-width: 360px) {
+  .divCardSize {
+    max-width: 250px;
+  }
+  .cardBorder {
+    width: 100%;
+    max-width: 260px;
+    height: 140px;
+    background-color: black;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .divCardSize {
+    width: 300px;
+  }
+  .underline {
+    width: 100%;
+  }
+  .cardBorder {
+    width: 100%;
+    max-width: 360px;
+    height: 240px;
+    background-color: black;
+  }
+  .wrapper {
+    overflow-x: auto; 
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-x;
+    scrollbar-width: none;
+  }
+
+  .wrapper::-webkit-scrollbar {
+    display: none;
+  }
+}
+

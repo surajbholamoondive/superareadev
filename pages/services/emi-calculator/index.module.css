@@ -1,0 +1,140 @@
+.calculatorDiv {
+    width: 40%;
+    height: fit-content;
+    margin-left: 5%;
+    border-radius: 8px;
+    border: 3px solid var(--secondary-color);
+}
+
+.formInput {
+    border: 2px solid var(--secondary-color);
+    color: black;
+    width: 50%;
+    margin: 16px;
+    border-radius: 5px;
+    padding: 6px 8px;
+    color: var(--secondary-color);
+}
+
+.formInput:focus {
+    outline: none;
+}
+
+.button {
+    display: flex;
+    padding: 1% 7%;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--secondary-color);
+    color: white;
+    background-color: var(--secondary-color);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 50%;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.emiDiv {
+    margin-left: 5%;
+    font-weight: 600;
+    color: var(--secondary-color);
+    width: 400px;
+}
+
+.sideDiv {
+    height: 80%;
+    width: 35%;
+    text-align: center;
+}
+
+.Md_quotes {
+    font-size: 36px;
+    width: 450px;
+    margin-top: 50px;
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+
+/* media queries */
+
+/* (phones) */
+@media only screen and (max-width: 767px) {
+    .calculatorDiv {
+        width: 70%;
+        margin-left: auto;
+        border-radius: 4px;
+        border: 1px solid #0168A2;
+    }
+
+    .formInput {
+        border: 1px solid #0168A2;
+        width: 85%;
+        margin: 12px;
+        border-radius: 3px;
+        padding: 4px 6px;
+        font-size: 13px;
+        color: 0168A2;
+    }
+    .button{
+        width: 85%;
+    }
+
+    .emiDiv {
+        margin-left: 15%;
+    }
+
+    .sideDiv {
+        height: 80%;
+        width: 300px;
+        margin: auto;
+        margin-bottom: 8%;
+    }
+
+    .Md_quotes {
+        font-size: 18px;
+        width: 300px;
+        margin: 6% 0;
+    }
+}
+
+/* (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .formInput {
+        width: 70%;
+        padding: 4px 6px;
+    }
+    .button{
+        width: 70%;
+    }
+    .sideDiv {
+        height: 80%;
+        width: 40%;
+        text-align: center;
+        margin-left: 5%;
+    }
+
+    .Md_quotes {
+        font-size: 24px;
+        width: 300px;
+        margin: auto;
+        margin-top: 15%;
+    }
+
+    .emiDiv {
+        font-size: 13px;
+    }
+}

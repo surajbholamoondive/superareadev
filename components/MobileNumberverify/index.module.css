@@ -1,0 +1,822 @@
+.PostProperty {
+    background: linear-gradient(90deg, rgba(164, 125, 74, 0) 50%, rgba(192, 144, 89, 0.93) 122.81%);
+    z-index: 0;
+    position: relative;
+    font-family: arial !important;
+}
+
+/* Media query for tablets and mobile views */
+@media (max-width: 1024px) {
+    .PostProperty {
+        /* background:url("../../../assets/post propertyimage/bg1.png")  no-repeat ; */
+        background-size: cover;
+        background-position: center bottom;
+        /* opacity: 40%; */
+
+    }
+}
+@media (max-width: 768px) {
+    .PostProperty {
+        /* background:url("../../../assets/post propertyimage/bg1.png")  no-repeat ; */
+        background-size: contain;
+        background-position: center bottom;
+        /* opacity: 40%; */
+
+    }
+}
+
+
+
+
+
+
+
+
+
+.Modulecontainer {
+    padding: 0 15px;
+    display: flex;
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    width: 100%;
+    /* max-width: 1170px; */
+    
+}
+
+
+.logo {
+    /* margin-left: -55px; */
+    /* margin-top: 10px;
+    margi */
+
+}
+
+
+
+.Leftcontainer {
+    /* width: calc(100% - 405px); */
+}
+
+.Headingad {
+    color: #000;
+    font-family: Poppins;
+    /* font-size: 33px; */
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.with {
+    color: #000;
+    font-family: Poppins;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+.MORES {
+    color: #931602;
+    font-family: Poppins;
+    /* font-size: 36px; */
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.MORESa {
+    color: #931602;
+    font-family: Poppins;
+    /* font-size: 24px; */
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: 143%; */
+    letter-spacing: -0.24px;
+    /* margin-right: 206px; */
+
+
+}
+
+.strong {
+    display: block;
+    font-weight: 600;
+}
+
+.Servicess {
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    margin: 25px -7px 0;
+
+}
+
+
+.Liservice {
+    margin: 7px;
+    padding: 10px 32px 10px 60px;
+    border-radius: 40px;
+    border: solid 1px #707070;
+    background: #931602;
+    color: #fff;
+    position: relative;
+}
+
+
+.Icon1 {
+    position: absolute;
+    left: 25px;
+}
+
+.Icon2 {
+    position: absolute;
+    left: 25px;
+}
+
+.Icon3 {
+    position: absolute;
+    left: 25px;
+}
+
+.Icon4 {
+    position: absolute;
+    left: 25px;
+}
+
+
+.Mennnn {
+    margin-top: 23px;
+    margin-bottom: 10px;
+    max-width: 100%
+}
+
+
+.Rightcontainer {
+    
+    
+
+    
+}
+
+.Formbox {
+    background: #fff;
+    border-radius: 15px;
+    background: #FFF;
+    /* padding-right: 20px; */
+    /* box-shadow: 0px 6px 25px 5px rgba(0, 0, 0, 0.10); */
+    /* display: flex;
+    direction: column; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Formbox3 {
+    background: #fff;
+    border-radius: 15px;
+    background: #FFF;
+    /* padding-right: 20px; */
+    /* box-shadow: 0px 6px 25px 5px rgba(0, 0, 0, 0.10); */
+    /* display: flex;
+    direction: column; */
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.Formbox2 {
+    background: #fff;
+    border-radius: 15px;
+    background: #FFF;
+    /* padding-right: 20px; */
+    /* box-shadow: 0px 6px 25px 5px rgba(0, 0, 0, 0.10); */
+    /* display: flex;
+    direction: column; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.moresheadings {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    /* font-size: 25px; */
+    font-style: normal;
+    /* font-weight: 200; */
+    line-height: normal;
+    /* padding-top: 26px; */
+    align-items: center;
+}
+
+/* .Host {
+    margin-top: 20p;
+} */
+
+.formfields {
+    padding-top: 15px;
+    display: block;
+    /* margin: 5px; */
+    width: fit-content;
+
+
+    padding-bottom: 20px;
+}
+
+
+
+.owner {
+    color: #78828A;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 18px */
+    letter-spacing: -0.15px;
+    margin-left: 27px;
+
+
+}
+
+
+.buttonContainer {
+    /* width: 300px; */
+    display: flex;
+    /* margin-bottom: -10px; */
+    justify-content: center;
+    margin-left: 20px;
+    /* margin-top: -5px; */
+
+}
+
+.Usertype {
+    display: -webkit-flex;
+
+}
+
+
+.ownerType {
+    background: #5E449B;
+    color: #fff;
+    height: 44px;
+    padding: 0 35px;
+    border-radius: 22px;
+    border: solid 1px #bebebe;
+    background: #fff;
+    cursor: pointer;
+    color: #000;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    margin-left: 12px
+}
+
+
+.SELLRENT {
+    margin-bottom: 25px;
+}
+
+.selected {
+    background-color: #5E449B;
+    /* Desired background color for selected items */
+    color: white;
+    /* Optional: You can set the text color to white or any other color */
+    /* Add any other styling you want for selected items here */
+}
+
+.Label1 {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #666;
+    display: inline-block;
+}
+
+.ChoiceList12 {
+    display: -webkit-flex;
+
+}
+
+
+/* .classss {
+    background: #5E449B;
+    color: #fff;
+} */
+
+.ChoiceList12 li {
+    height: 44px;
+    padding: 0 35px;
+    border-radius: 22px;
+    border: solid 1px #bebebe;
+    background: #fff;
+    cursor: pointer;
+    color: #000;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+
+
+.ListingType {
+    margin-left: 12px;
+}
+
+
+.MobileNumber {
+    /* font-size: 16px; */
+    color: #6b7280;
+    /* display: inline-block; */
+    margin-left: 28px
+}
+
+
+
+.fieldName {
+    color: #FFF;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    /* 137.5% */
+    margin-bottom: 8px;
+    margin-top: 1%;
+}
+
+.Mobilefield {
+    padding: 2px 10px;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 12px;
+    /* width: 300px; */
+    height: 44px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    color: #333;
+    margin-left: 20px
+}
+
+
+.CityName {
+    margin-bottom: 25px;
+
+}
+
+.Citylabel {
+    margin-bottom: 5px;
+    margin-top: 12px;
+    font-size: 14px;
+    color: #666;
+    display: inline-block;
+}
+
+.Formlabel {
+    padding: 6px 20px;
+    border-radius: 60px;
+    display: flex;
+    margin-top: 12px;
+    width: 100%;
+    height: 44px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    color: #333;
+
+}
+
+
+.Submitbutton {
+    /* width: 300px; */
+    border-radius: 10px;
+    height: 44px !important;
+    background: #931602;
+    pointer-events: none;
+    border-color: #d5b1b1;
+    color: #FFF;
+    /* margin-top: 2px; */
+
+}
+
+
+.Submitbuttonssssss {
+    /* width: 330px; */
+    border-radius: 10px;
+    height: 44px !important;
+    background: #931602;
+    border-color: #d5b1b1;
+    color: #FFF;
+    /* margin-top: 2px; */
+
+
+}
+
+/* Style for the enabled button */
+.Submitbutton.enabled {
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+
+.posted {
+    width: 500px;
+    margin: auto;
+}
+
+.howtopost {
+    text-align: center;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 26px;
+    align-items: center;
+}
+
+.howtopostyour {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* User details */
+
+
+
+
+  /* .googleInput div input {
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  } */
+
+
+  .googleInput div {
+    /* width: px; */
+    
+    margin-left: 8px;
+  }
+  .googleInput div input {
+   
+    border: 1px solid #ccc;
+    border-radius: 44px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    width: 294px;
+    height: 40px;
+    /* padding: 10px; */
+
+    /* margin: 12px; */
+   
+  }
+
+
+  .inputFieldsss {
+    border: 1px solid #ccc;
+    border-radius: 81px;
+    padding: 10px;
+    /* width: 335px; */
+    margin: 15px;
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.loginContainer {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.heading {
+    color: #000;
+    text-align: center;
+    /* font-size: 26px; */
+    font-style: initial;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+    margin-top: 11px;
+}
+
+.slogan {
+    color: #000;
+    text-align: center;
+    /* font-size: 14px; */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+
+}
+
+.leftContent {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    padding: 24px 24px 0px 24px;
+    background-color: #faeee0;
+    position: relative;
+}
+
+.formContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    /* margin-bottom: 0px; */
+    z-index: 999999999;
+}
+
+/* .inputField {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    margin-top: -15px;
+  }
+   */
+.button {
+    margin-top: 15px;
+    background-color: #931602;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 25px;
+    height: 40px;
+}
+
+
+
+
+.rightContainer {
+    width: 50%;
+    /* position: relative; */
+    /* overflow: hidden; */
+}
+
+.notGet {
+    color: #000;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-left: -70px;
+}
+
+.rightImage {
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* @media (max-width: 767px) {
+    /* Mobile styles */
+/* .loginContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .leftContent {
+      position: relative;
+      width: 100%;
+      align-items: center;
+      padding: 16px 16px 0px 16px;
+      text-align: center;
+      justify-content: space-between;
+    }
+  
+    .rightContainer {
+      position: relative;
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+    .formContainer {
+      text-align: center;
+      padding: 25px;
+      width: 100%;
+      margin-top: 200px;
+    }
+  
+    .inputField {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 10px;
+      width: 90%;
+      margin: auto;
+      margin-top: 15px;
+    }
+  
+    .button {
+      margin-top: 20px;
+      /* width: 90%; */
+
+/* .buttonContainer {
+      width: 290px;
+      justify-content: center;
+      display: flex;
+    
+    }
+  
+    
+  
+    .rightImage {
+      position: relative;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+    .notGet{
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 14px;
+    } */
+
+
+/* @media (min-width: 768px) and (max-width: 1023px) {
+    /* Tablet styles */
+/* .loginContainer {
+      flex-direction: column;
+      align-items: center;
+    } */
+/* .logo {
+      margin-bottom: 180px;
+    }
+  
+    .leftContent {
+      position: relative;
+    width: 100%;
+    align-items: center;
+    padding: 16px 16px 0px 16px;
+    text-align: center;
+    justify-content: space-between;
+      
+    } */
+
+/* .rightContainer {
+      position: relative;
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+    .formContainer {
+      padding: 25px;
+      width: 464px;
+      margin-top: 20px;
+      align-items: center;
+    }
+  
+    .inputField {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 10px;
+      width: 90%;
+      margin: auto;
+      margin-top: 15px;
+    }
+  
+    .button {
+      margin-top: 20px;
+      width: 458px;
+      height: 72px;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-align: center;
+    }
+  
+    .buttonContainer {
+      width: 720px;
+      height: 72px;
+      text-align: center;
+      justify-content: center;
+      display: flex;
+    }
+  
+    
+  
+    .notGet {
+      color: #000;
+      
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px;
+      margin-top: 20px;
+    }
+  
+    .rightImage {
+      position: relative;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    } */

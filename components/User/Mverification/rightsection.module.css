@@ -1,0 +1,9 @@
+@media (max-width: 1024px) {
+    .rs {
+        background:url("../../../assets/M-verification/Homeeeeessss.svg")  no-repeat ;
+        background-size: cover;
+        background-position: center bottom;
+        /* opacity: 40%; */
+
+    }
+}

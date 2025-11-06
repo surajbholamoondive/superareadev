@@ -1,0 +1,40 @@
+.searchImage{
+    background-size: fill;
+    background-repeat: 'no-repeat';
+    background-color: 'white';
+}
+.SearchBox{
+    border-radius: 0px 32px 32px 16px;
+    border-color:#931602;
+    border-width:1.5px;
+  }
+  @media (max-width: 767px) {
+    .SearchBox{
+        border-radius: 0px 0px 16px 16px;
+       
+      }
+}
+  .inputBox{
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 37.021px 74.043px -18.511px rgba(143, 144, 188, 0.15);
+    backdrop-filter: blur(12.340425491333008px);
+  }
+  .filterButtonActive{
+    background-color: #931602;
+    color:white;
+}
+.filterButtonInactive{
+    background: white;
+    font-weight: 400;
+    font-size: 0.875rem;
+    border-color: #931602;
+    border-width:1.5px 1.5px 0px 1.5px
+  }
+
+@media (max-width: 890px) {
+    .searchImage {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }

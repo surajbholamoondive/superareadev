@@ -1,0 +1,20 @@
+.wrapper {
+    display: flex;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+.wrapper::-webkit-scrollbar {
+    display: none;
+}
+.wrapper {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+  display: flex;
+  scroll-snap-type: x mandatory;  
+}
+.wrapper::-webkit-scrollbar {
+  display: none; 
+}
+.wrapper > div {
+  scroll-snap-align: start; 
+}

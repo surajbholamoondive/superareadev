@@ -1,0 +1,68 @@
+.cookieConsentContainer {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 20px;
+  margin: 0;
+  border-radius: 15px;
+  border: #D9DBE9 solid 2px;
+  text-align: center;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column; /* Default to column for smaller screens */
+  justify-content: center;
+  align-items: center;
+  max-width: 90%; /* Prevents the width from exceeding the screen size */
+}
+
+@media (min-width: 1245px) {
+  .cookieConsentContainer {
+      flex-direction: row; /* Switch to row layout on larger screens */
+      padding: 20px 40px; /* Adjust padding for larger screens */
+  }
+}
+
+.cookieText {
+    color: #333;
+    width: 75%;
+    text-align: left;
+    margin-left: 20px;
+}
+.cookie{
+  border:15px solid #EFF0F6;
+  background-color: #EFF0F6;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.buttonContainer {
+    display: flex;
+    gap:3%;
+    width: 300px;
+
+}
+
+.btn {
+  padding: 8px 15px;
+  margin: 0 5px;
+    border: 1px solid #931602;
+    background-color: #931602;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap:2px;
+}
+
+.reject {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,297 @@
+/* head div */
+.mainDiv{
+    background-color: white;
+}
+.heading{
+    font-size: 45px;
+    color: #931602;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.imageDiv{
+    width: 350px;
+    height: 60vh;
+    padding: 30px;
+    padding-right: 0px;
+}
+
+.smallHeading{
+    font-size: 14px;
+    color: rgb(148, 146, 146);
+}
+
+.para{
+    color: rgb(148, 146, 146);
+    letter-spacing: 0.5px;
+    font-size: 13px;
+    width: 500px;
+    margin-top: 10px;
+}
+
+.opening{
+    width: fit-content;
+    background-color: rgba(1, 129, 145, 0.22);
+    color: #931602;
+    margin: 30px 0px;
+    padding: 10px 19px;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 25px;
+    border: 1px solid #931602;
+    cursor: default;
+}
+
+/* career section */
+.h2heading{
+    font-size: 34px;
+    color: grey;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.careerPara{
+    color: rgb(93, 91, 91);
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    width: 400px;
+    margin-top: 10px;
+    line-height: 21px;
+}
+
+.oneDiv{
+    background-color: rgb(255, 193, 182);
+    width: 220px;
+    margin: 10px;
+    padding: 20px;
+    height: 170px;
+    color: #0d6773;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 1px rgb(203, 203, 203);
+    border: 1px solid white;
+}
+.threeDiv{
+    background-color: rgb(100, 181, 135);
+    width: 240px;
+    height: 170px;
+    padding: 20px;
+    margin: 10px;
+    color: rgb(243, 242, 242);
+    border-radius: 5px;
+    box-shadow: 0 0 3px 1px rgb(203, 203, 203);
+    border: 1px solid white;
+}
+
+.image{
+    width: 70px;
+    height: 90px;
+    margin: auto;
+    padding: 10px 0px;
+}
+.h3{
+    
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 14px;
+    width: 200px;
+}
+
+.twoDiv{
+    background-color: rgb(232, 234, 233);
+    width: 220px;
+    height: 170px;
+    padding: 20px;
+    color: #931602;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 1px rgb(203, 203, 203);
+    border: 1px solid white;
+    justify-content: end;
+}
+
+/* Recruitmnt Process */
+.recruitmentSingleDiv{
+    margin: 0px 10px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #f9a04c;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+.imageRecruitment{
+    width: 55px;
+    height: 68px;
+    margin: auto;
+    padding: 5px 0px;
+}
+.h4Heading{
+    color: #931602;
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+}
+.paraRecruitment{
+    font-size: 12px;
+    width: 140px;
+    padding: 10px 0px;
+    margin: auto;
+    color: rgb(155, 153, 153);
+}
+
+/* job Openings */
+.h4heading{
+    font-size: 24px;
+    color: #931602;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.underline{
+    width: 100%;
+    height: 2px;
+    border-radius: 5px;
+    background-color: #931602;
+    text-align: center;
+}
+
+.jobDiv{
+    margin: 20px 0px;
+    height: 140px;
+    background: white;
+    background-color: rgb(252, 250, 250);
+    border-bottom: 1px solid #931602;
+    position: relative;
+    padding: 10px;
+}
+.jobDiv h5{
+    font-size: 11px;
+    margin: 10px 5px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    color: grey;
+}
+.jobheading{
+    font-size: 17px;
+    margin: 5px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    color: #195c92;
+}
+.jobButton{
+    color: white;
+    font-weight: 600;
+    background-color: #931602;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 6px 20px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 4px;
+}
+.jobButton:hover{
+    opacity: 0.9;
+}
+
+/* tab view */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .h2heading{
+        font-size: 24px;
+    }
+    .careerPara{
+        width: 300px;
+    }
+    .oneDiv{
+        width: 150px;
+        height: 120px;
+    }
+    .threeDiv{
+        width: 150px;
+        height: 120px;
+    }
+    .twoDiv{
+        width: 150px;
+        height: 120px;
+    }
+    .image{
+        width: 50px;
+        height: 60px;
+        padding: 0px 0px;
+    }
+    .h3{
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-align: center;
+        font-size: 11px;
+        width: 110px;
+    }
+    .recruitmentSingleDiv{
+        margin: 11px 10px;
+        
+    }
+}
+
+/* mobile view */
+@media only screen and (max-width: 767px) {
+    .h2heading{
+        font-size: 20px;
+    }
+    .careerPara{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .oneDiv{
+        width: 150px;
+        height: 120px;
+    }
+    .threeDiv{
+        width: 150px;
+        height: 120px;
+    }
+    .twoDiv{
+        width: 150px;
+        height: 120px;
+    }
+    .image{
+        width: 50px;
+        height: 60px;
+        padding: 0px 0px;
+    }
+    .h3{
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-align: center;
+        font-size: 11px;
+        width: 110px;
+    }
+
+    .recruitmentSingleDiv{
+        width: 150px;
+        height: 150px;
+        padding: 8px;
+        margin: 10px;
+    }
+    .imageRecruitment{
+        width: 40px;
+        height: 45px;
+    }
+    .h4Heading{
+        padding-top: 10px;
+        font-size: 14px;
+    }
+    .paraRecruitment{
+        font-size: 11px;
+        width: 130px;
+        padding: 5px 0px;
+    }
+    .jobDiv{
+        margin: 0px;
+    }
+    .jobButton{
+        font-size: 12px;
+        padding: 4px 14px;
+    }
+}

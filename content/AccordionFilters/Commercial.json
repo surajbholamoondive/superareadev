@@ -1,0 +1,34 @@
+[
+  {
+    "key": "propertySubType",
+    "heading": "Property Sub Type",
+    "filters": [
+      "Commercial Land",
+      "Warehouse",
+      "Office Space in IT Park / SEZ",
+      "Commercial Office Space",
+      "Commercial Shop",
+      "Commercial Showroom",
+      "Godown",
+      "Mall Retail Lockable",
+      "Mall Retail Unlockable",
+      "High Street Retail Lockable",
+      "High Street Retail Unlockable",
+      "Office Space",
+      "SCO Plot",
+      "Business Suites",
+      "Hotel Apartment",
+      "Food Court",
+      "Banquet",
+      "KIOSK",
+      "Studio Apartment",
+      "Anchor Store",
+      "Hyper Market",
+      "Food Kiosk",
+      "ATM Space",
+      "Retail Space",
+      "Co-Working Space",
+      "Hospitality"
+    ]
+  }
+]

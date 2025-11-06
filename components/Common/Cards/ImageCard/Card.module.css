@@ -1,0 +1,47 @@
+.card {
+  max-height: 30%;
+  flex-shrink: 0;
+  border-radius: 14px;
+  position: relative;
+  margin-bottom: 20px;
+  
+}
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+  box-shadow: 0px 0px 4px 1px rgb(196, 195, 195);
+  object-fit: cover;
+}
+.name {
+  position: absolute;
+  width: 140px;
+  top: 24%;
+  left: 9%;
+  text-align: center;
+  letter-spacing: 0.8px;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .name {
+    left: 0%;
+    top: 22%;
+  }
+  .image {
+    height: 100%;
+  }
+  .card {
+    width: 290px;
+    height: 270px;
+    margin-bottom: 23px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1030px) {
+  .card{
+    width: 300px;
+    height: 290px;
+    background-color: black;
+  }
+}

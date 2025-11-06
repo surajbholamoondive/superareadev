@@ -1,0 +1,74 @@
+.wrapper {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+
+.scrollItem {
+  flex: 0 0 100%;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1145px) {
+  
+  .wrapper {
+    width: 60%;
+  }
+
+}
+
+
+@media screen and (min-width: 550px) and (max-width: 767px) {
+  
+  .wrapper {
+    width: 70%;
+  }
+
+}
+
+
+@media screen and (max-width: 545) {
+
+
+  .wrapper {
+    width: 80%;
+
+  }
+}
+
+  .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 250px;
+  gap: 3rem;
+}
+.dotsContainer {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+  gap: 8px;
+  padding-bottom: 10px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.dot:hover {
+  transform: scale(1.2);
+}
+
+.activeDot {
+  background-color: #a41c1c;
+}

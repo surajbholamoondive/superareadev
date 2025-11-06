@@ -1,0 +1,68 @@
+.tabSpan {
+  background-color: brown;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+}
+.selectCityStyle {
+  background-color: #ededed;
+  padding: 4px;
+  text-align: left;
+  border-radius: 4px;
+  margin-right: 8px;
+  width: 140px;
+  margin-top: 8px;
+}
+
+.selectBoxStyle {
+  display: flex;
+  margin-left: 350px;
+}
+.tabApprovedStyle {
+  text-transform: capitalize;
+  padding-top: 1px;
+  font-size: 14px;
+
+}
+.tabPendingStyle {
+  text-transform: none;
+  font-size: 14px;
+}
+
+.outerDiv {
+  display: flex;
+  align-items: baseline;
+}
+.tabContext {
+  margin-left: 24px;
+}
+.customPopoverWidth {
+  width: 450px !important;
+  height: 480px !important;
+  border-radius: 4px !important;
+}
+.buttonEditModal {
+  width: 25px;
+  height: 25px;
+  margin-right: -8px;
+}
+
+.customScroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 4px #ffffff;
+  border-radius: 4px;
+}
+
+.customScroll::-webkit-scrollbar-thumb {
+  background: #931602;
+  border-radius: 4px;
+}
+
+.customScroll::-webkit-scrollbar {
+  width: 5px;
+  display: unset;
+}

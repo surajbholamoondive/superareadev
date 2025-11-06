@@ -1,0 +1,50 @@
+.card {
+  width: 29.33%;
+  height: 300px;
+  flex-shrink: 0;
+  background-color: #fff;
+  border: 3px solid #003e71;
+  border-radius: 30px;
+  margin-left: 28px;
+}
+
+.imageDiv {
+  width: 95px;
+  height: 95px;
+  flex-shrink: 0;
+  background-color: #931602;
+  margin: auto;
+  border-radius: 50%;
+  margin-top: 10%;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    width: 300px;
+    height: 250px;
+    margin: 0 12%;
+    margin-left: -2%;
+  }
+  .imageDiv {
+    width: 65px;
+    height: 65px;
+    margin-top: 12%;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1023px) {
+  .card {
+    width: 33%;
+
+    height: 300px;
+    margin: 0px 10px;
+  }
+  .imageDiv {
+    width: 65px;
+    height: 65px;
+    margin-top: 12%;
+    position: relative;
+  }
+}

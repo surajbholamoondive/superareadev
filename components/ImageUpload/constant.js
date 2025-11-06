@@ -1,0 +1,28 @@
+const roomOptions = [
+    "Exterior View",
+    "Bird's Eye View",
+    "Attached Bathroom",
+    "Balcony",
+    "Bathroom",
+    "Bedroom",
+    "Floor Plan",
+    "Furnished Amenities",
+    "Garden",
+    "Gym",
+    "Kitchen",
+    "Land",
+    "Lift",
+    "Living Room",
+    "Map Location",
+    "Master Bedroom",
+    "Master Plan",
+    "Nearby",
+    "Parking",
+    "Room",
+    "Stairs",
+    "Study Room",
+    "Swimming Pool",
+    "Terrace",
+    "other"
+];
+export default roomOptions

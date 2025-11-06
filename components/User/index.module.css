@@ -1,0 +1,25 @@
+/* styles/SideDashboard.module.css */
+.normalLink {
+  text-decoration: none;
+  margin-bottom: 6px;
+}
+
+.activeLink {
+  font-weight: bold;
+  color: #931602;
+  margin-bottom: 6px;
+  letter-spacing: 0.5px;
+}
+
+.scrollbar::-webkit-scrollbar {
+  height: 5px;
+  display: unset;
+}
+.scrollbar::-webkit-scrollbar-track {
+  background-color: #9316020f;
+  border-radius: 2px;
+}
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #931602;
+  border-radius: 4px;
+}

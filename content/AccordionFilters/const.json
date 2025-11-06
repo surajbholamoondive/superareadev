@@ -1,0 +1,114 @@
+[
+  {
+    "key": "propertyType",
+    "heading": "Property Type",
+    "filters": [
+      "Residential",
+      "Commercial",
+      "Industrial",
+      "Agricultural"
+    ]
+  },
+  {
+    "key": "priceRange",
+    "heading": "Price Range",
+    "filters": [
+      "below ₹ 20 lac",
+      "₹ 20 lac - ₹ 40 lac",
+      "₹ 40 lac - ₹ 60 lac",
+      "₹ 60 lac - ₹ 80 lac",
+      "₹ 80 lac - ₹ 1 Cr.",
+      "₹ 1 Crore+"
+    ]
+  },
+  {
+    "key": "BHK",
+    "heading": "BHK",
+    "filters": [
+      "Studio",
+      "1 BHK",
+      "2 BHK",
+      "3 BHK",
+      "4 BHK",
+      "4+ BHK"
+    ]
+  },
+  {
+    "key": "amenities",
+    "heading": "Amenities",
+    "filters": [
+      "Gymnasium",
+      "Lift",
+      "Fire Fighting Systems",
+      "Security",
+      "CCTV",
+      "Badminton Court",
+      "Tennis Court",
+      "Football",
+      "Squash Court",
+      "Cricket",
+      "Volleyball",
+      "Yoga / Meditation Area",
+      "Basketball",
+      "Jogging Track",
+      "Power Backup",
+      "Table Tennis",
+      "Kids Play Area",
+      "Intercom Facility",
+      "Water Supply",
+      "Swimming Pool",
+      "Multi-sport Court",
+      "Theatre",
+      "Cafeteria",
+      "Waste Disposal",
+      "Party Lawn",
+      "Club House",
+      "Banquet Hall",
+      "Rainwater Harvesting",
+      "Vastu Compliant",
+      "Solar Water Heating",
+      "Society Office",
+      "Multipurpose Hall",
+      "Skating Ring",
+      "Indoor Games",
+      "Shopping Center",
+      "Amphitheatre",
+      "Golf Course",
+      "Library",
+      "Lobby",
+      "Video Door Phones",
+      "Temple",
+      "Gazeebo"
+    ] },
+  {
+    "key": "furnishingStatus",
+    "heading": "Furnishing Status",
+    "filters": [
+      "Furnished",
+      "Semi-Furnished",
+      "Non-Furnished",
+      "Bareshell"
+    ]
+  },
+   {
+    "key":"possessionStatus",
+    "heading":"Possession Status",
+    "filters":[
+      "Newly Launched",
+      "Ready to Move",
+      "Under Construction",
+      "Near Possession"
+    ]
+   },
+   {
+    "key": "postedSince", 
+    "heading": "Posted Since",
+    "filters": [
+      "All Time",
+      "Yesterday",
+      "Last Week",
+      "Last 2 Weeks",
+      "Last Month"
+    ]
+   }
+]

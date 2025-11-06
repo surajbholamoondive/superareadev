@@ -1,0 +1,10 @@
+@media (max-width: 760px) {
+  .Responsive{
+    width: 500px;
+  }
+}
+@media (max-width:940px) {
+    .Responsive{
+        max-width: 700px;
+      }
+}

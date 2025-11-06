@@ -1,0 +1,149 @@
+.imageGridContainer {
+  display: flex;
+  width: 100%;
+}
+.coverImage {
+  width: 50%;
+  height: 500px;
+  position: relative;
+}
+.coverImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.rightImages {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.rightImage {
+  position: relative;
+  width: 100%;
+  height: 250px;
+}
+.rightImageFull {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+.rightImageFull img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.rightImageFull video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.rightImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.rightImage video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.imageOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.Bg {
+  background-color: var(--secondary-color);
+  cursor: pointer;
+  transform: translateY(-50%);
+  justify-content: center;
+}
+.BgTwo {
+  background-color: var(--secondary-color);
+  cursor: pointer;
+  transform: translateY(150%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  justify-content: center;
+
+}
+@media (max-width: 1024px) {
+  .nonMobile {
+    display: none;
+  }
+  .mobileSlider {
+    display: block;
+  }
+  .mobileSlider .slick-slide {
+    padding: 10px;
+  }
+  .rightImageFull {
+    position: relative;
+    width: 100%;
+    height: 30px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .mobile {
+    display: block;
+  }
+  .imageGridContainer {
+    width: 99.4%;
+    height: 400px;
+  }
+  .coverImage {
+    height: 400px;
+    width: 55%;
+  }
+
+  .rightImages {
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .rightImage {
+    height: 71.5%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .rightImageFull {
+    position: relative;
+    height: 400px;
+  }
+}
+@media (min-width: 1025px) {
+  .imageGridContainer {
+    display: flex;
+    width: 100%;
+  }
+  .mobile {
+    display: none;
+  }
+  .mobileSlider {
+    display: none;
+  }
+  .rightImage {
+    position: relative;
+    width: 50%;
+    height: 250px;
+  }
+  .rightImageFull {
+    position: relative;
+    height: 500px;
+  }
+}

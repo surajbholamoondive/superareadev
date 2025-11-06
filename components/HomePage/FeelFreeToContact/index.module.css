@@ -1,0 +1,210 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000000;
+}
+
+.modalContent {
+  width: 80%;
+  max-width: 900px;
+  height: 90%;
+  margin-bottom: 2.3%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.contactButton {
+  position: fixed;
+  top: 50%;
+  right: 0px;
+  background-color: #93160270;
+  border-radius: 10px 0px 0px 10px;
+  width: 35px;
+  height: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  transform: translateY(-50%);
+  border: 1px solid white;
+}
+
+.contactButtonIcon {
+  width: 50px;
+  height: 50px;
+}
+
+.servicesComponent {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  padding: 3%;
+  background-color: #FFFCFC;
+  border-radius: 10px;
+}
+
+.closeIcon {
+  width: 35px;
+  height: 35px;
+  right: 10px;
+  background-color: #FFFCFC;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.heading {
+  color: var(--secondary-text);
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+.paragraph {
+  color: var(--secondary-text);
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+
+.fieldName {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-style: normal;
+  line-height: 22px;
+  margin-bottom: 8px;
+}
+
+.inputField {
+  width: 32vw;
+  max-width: 360px;
+  height: 30px;
+  flex-shrink: 0;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding-left: 7px;
+}
+
+.inputField:focus {
+  outline: none;
+}
+
+.textArea {
+  width: 97.7%;
+  height: 150px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.textArea:focus {
+  outline: none;
+}
+
+.button {
+  display: inline-flex;
+  padding: 6px 16px;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 6px;
+  background: #931602;
+  color: #F1F1F1;
+  font-style: normal;
+  line-height: 150%;
+}
+
+@media screen and (max-width: 640px) {
+  .fieldName {
+    font-size: 12px;
+  }
+
+  .inputField {
+    height: 30px;
+    margin-bottom: -10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .servicesComponent {
+    width: 100%;
+    background-color: #FFFCFC;
+    border-radius: 10px;
+  }
+
+  .heading {
+    margin-left: 50px;
+    text-align: left;
+  }
+
+  .closeIcon {
+    width: 30px;
+    height: 30px;
+    background-color: #FFFCFC;
+    border-radius: 50%;
+    padding: 8px;
+  }
+
+  .inputField {
+    width: 65vw;
+  }
+
+  .textArea {
+    width: 64.8vw;
+    margin-left: -10px;
+    max-width: 360px;
+  }
+
+  .fieldName {
+    margin-top: 8px;
+  }
+
+  .modalContent {
+    width: 80%;
+    max-width: 900px;
+    height: 90%;
+  }
+
+  .button {
+    margin-right: 12%;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1100px) {
+  .textArea {
+    width: 69.4vw;
+  }
+
+  .modalContent {
+    width: 80%;
+    max-width: 900px;
+    height: 90%;
+  }
+
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1923px) {
+  .textArea {
+    width: 95.5%;
+  }
+
+  .modalContent {
+    width: 80%;
+    max-width: 900px;
+    height: 90%;
+  }
+}

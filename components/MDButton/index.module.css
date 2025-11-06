@@ -1,0 +1,34 @@
+.centerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #4592ff;
+  border: 1px solid #1677ff;
+  padding: 10px;
+  height: 40px;
+  width: 100px;
+}
+.imageContainer {
+  position: relative;
+  min-height: 25px;
+  min-width: 25px;
+  height: 30px;
+  width: 30px;
+}
+.textContainer {
+  align-items: center;
+}
+.buttonDisabled {
+  border: 1px solid #999999;
+  background-color: darkgrey;
+  color: #fff;
+  padding: 2px;
+  cursor: not-allowed;
+}

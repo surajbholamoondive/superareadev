@@ -1,0 +1,38 @@
+.ulList{
+    margin-top: 8.5px;
+    max-height: 200px;
+    height: fit-content;
+    overflow-y: scroll;
+    z-index: 100;
+}
+
+.ulList li{
+  border-bottom: 1px solid rgb(224, 222, 222);
+  border-top: 1px solid rgb(224, 222, 222);
+  font-size: 12px;
+}
+.ulList::-webkit-scrollbar {
+    width: 5px;
+    display: unset;
+}
+  
+  /* Track */
+.ulList::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 4px #ffffff; 
+    border-radius: 4px;
+  }
+   
+  /* Handle */
+.ulList::-webkit-scrollbar-thumb {
+    background: #931602; 
+    border-radius: 4px;
+}
+
+.suggestionCount{
+  color: #931602;
+  background-color: #9316020f;
+  width: 50px;
+  text-align: center;
+  padding: 2px 2px;
+  border-radius: 4px;
+}

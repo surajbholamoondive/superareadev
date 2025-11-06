@@ -1,0 +1,46 @@
+.mainDiv{
+    max-height: 70vh;
+}
+.drawerDiv::-webkit-scrollbar{
+    display: none;
+}
+
+.zerolikeDiv{
+    background-color: rgba(200, 142, 32, 0.06);
+    height: 200px;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+
+.likeImageDiv{
+    width: fit-content;
+    margin: 10px auto 10px;
+    padding-top: 50px;
+    opacity: 0.5;
+}
+
+/* list */
+.singleList{
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.singleList h1{
+    color: #931602;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 5px 0px;
+    margin-left: 10px;
+}
+.singleList h2{
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.singleList h5{
+    color: #931602;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 10px;
+}

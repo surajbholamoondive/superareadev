@@ -1,0 +1,88 @@
+/* step 3 */
+.firstparent {
+  width: 100%;
+}
+
+.parent {
+  width: 100%;
+}
+
+.datePicker {
+  border-radius: 5px;
+}
+
+.customDatePicker {
+  border: 1px solid black;
+}
+
+.datePicker div {
+  font-size: 13px;
+  padding: 4px 5px;
+  width: 260px;
+  font-family: inherit;
+}
+
+.datePicker div input :hover {
+  background-color: white;
+  border-width: 0px;
+}
+
+.datePicker div input {
+  padding: 6px;
+}
+
+.datePicker div div {
+  background-color: white;
+}
+
+.datePicker div div button:hover {
+  background-color: white;
+}
+
+.datePicker div div button {
+  margin-left: 100px;
+}
+
+.datePicker div div div button {
+  background-color: #931602;
+}
+
+.datePicker div input:hover {
+  border-radius: 8px;
+}
+
+.Canvas {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .parent {
+    width: 100%;
+  }
+
+  .subparent {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .parent {
+    width: 100%;
+  }
+
+  .subparent {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 768px) {
+  .parent {
+    width: 100%;
+  }
+
+  .subparent {
+    width: 100%;
+  }
+}

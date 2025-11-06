@@ -1,0 +1,8 @@
+
+
+.menu{
+    position: absolute;
+    top: 50%;  /* Adjust as needed */
+    left: 100%; /* Adjust as needed */
+    transform: translate(0, -50%); /* Adjust for precise vertical alignment */
+  }

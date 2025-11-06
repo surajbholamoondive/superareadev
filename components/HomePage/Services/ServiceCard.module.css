@@ -1,0 +1,54 @@
+
+.card {
+
+  flex-shrink: 0;
+  border: 2px solid var(--secondary-color);
+  border-radius: 30px;
+  position: relative;
+  margin-bottom: 2rem;
+  flex: 1;
+}
+
+.heading {
+  color: var(--secondary-color);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-style: normal;
+  margin-left: 30px;
+  margin-top: 5%;
+}
+
+.unorderedList {
+  width: 88%;
+  height: 97px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.listItem {
+  color: var(--text-body, #676565);
+  font-style: normal;
+  list-style-type: disc;
+  margin: 5px 0px;
+}
+
+.iconDiv {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 45%;
+  height: 105px;
+  border-radius: 55px 0px 30px 0px;
+}
+
+.imgIconDiv {
+  position: absolute;
+  top: 35%;
+  left: 40%;
+}
+
+.serviceIcon {
+  margin: auto !important;
+}
+
+
+

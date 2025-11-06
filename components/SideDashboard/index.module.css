@@ -1,0 +1,10 @@
+/* styles/SideDashboard.module.css */
+.normalLink {
+  text-decoration: none;
+}
+
+.activeLink {
+  font-weight: bold;
+  color: var(--secondary-color);
+  letter-spacing: 0.5px;
+}

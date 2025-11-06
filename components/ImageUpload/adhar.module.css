@@ -1,0 +1,185 @@
+.MainBox {
+    background-color: #ffffff;
+    /* width: 500px;
+    height: 410px; */
+    border-radius: 8px;
+}
+
+.MainDivBox {
+    background-color: #931602;
+    object-fit: cover;
+    height: 130px;
+    color: white;
+    text-align: center;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.skipBtn {
+    font-size: 14px;
+    padding: 6px 15px;
+    color: white;
+    background-color: #931602;
+    /* border: 1px solid #787b7b; */
+    margin-top: 35px;
+    position: absolute;
+    left: 20px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+}
+
+.completeBtn {
+    font-size: 14px;
+    padding: 6px 15px;
+    color: white;
+    background-color: #931602;
+    /* border: 1px solid #787b7b; */
+    margin-top: 35px;
+    position: absolute;
+    right: 20px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+}
+
+.completeBtn:hover {
+    opacity: 0.9;
+}
+
+.skipBtn:hover {
+    opacity: 0.9;
+}
+
+
+/* child divs */
+
+.childIcon {
+    /* background-color: #018191; */
+    margin: auto;
+}
+
+.childIconh1 {
+    text-align: center;
+    color: #931602;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.childIconh3 {
+    color: #787b7b;
+    font-size: 12px;
+    color: rgb(136, 139, 140);
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    margin-top: 15px;
+}
+
+.childBtn1 {
+    font-size: 11px;
+    padding: 3px 7px;
+    width: fit-content;
+    color: white;
+    background-color: #029393;
+    border: 1px solid #787b7b;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+}
+
+.childBtn1:hover {
+    opacity: 0.9;
+}
+
+.childHeading {
+    font-size: 22px;
+    text-align: center;
+    margin: 30px 0px;
+    font-weight: bold;
+}
+
+.childPara {
+    font-size: 12px;
+    text-align: center;
+}
+
+.childCloseBtn {
+    background-color: #931602;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    text-align: center;
+    padding: 8px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: default;
+}
+
+.childUploadBtn {
+    --tw-bg-opacity: 1;
+    background-color: rgb(1 129 145 / var(--tw-bg-opacity));
+    width: 95px;
+    height: 35px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    padding: 9px 9px;
+    border-radius: 0.25rem;
+    cursor: default;
+}
+
+.childInput {
+    padding: 6px 4px;
+    width: 300px;
+    font-size: 14px;
+    border: 2px solid #931602;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.childInput:focus {
+    outline: none;
+}
+
+
+
+/* Css for Upload Live Camera - Step 1 */
+.uploadCamera {
+    background-color: white;
+    /* width: 500px;
+    height: 500px; */
+}
+
+
+
+.checkmark {
+    color: green;
+    /* You can adjust the color */
+    font-size: 24px;
+    /* You can adjust the size */
+    margin-left: 10px;
+    /* Add spacing between the icon and text */
+}
+
+/* Add a class to hide the checkmark */
+.hidden {
+    padding: auto;
+}
+
+
+
+.line {
+    border: 2px solid #000;
+    width: 80px;
+    height: 0;
+    margin: 0 auto;
+    margin-top: 92px;
+
+}
+
+.linecomplete {
+    border: 2px solid #00ff00;
+    width: 80px;
+    height: 0;
+    margin: 0 auto;
+    margin-top: 92px;
+    /* Adjust the vertical position as needed */
+}

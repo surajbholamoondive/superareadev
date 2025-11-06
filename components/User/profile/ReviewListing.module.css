@@ -1,0 +1,9 @@
+.container {
+  border: 3px dashed #d8a7a7;
+  border-radius: 12px;
+  padding: 1.5rem;
+  background-color: white;
+  display: flex;
+
+}
+

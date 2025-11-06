@@ -1,0 +1,27 @@
+.menu {
+  width: 310px;
+  height: 105%;
+  background-color: white;
+  position: absolute;
+  margin-top: -20px;
+}
+.menu div::-webkit-scrollbar {
+  display: none;
+}
+
+.menu div {
+  height: 100%;
+  top: 0;
+}
+.menu div li {
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.logo {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.menu div {
+  box-shadow: none;
+}

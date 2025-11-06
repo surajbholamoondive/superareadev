@@ -1,0 +1,47 @@
+
+
+  .firstContainer {
+    position: relative;
+    cursor: pointer;
+    margin-left: 18px;
+  }
+  
+  .firstContainer input {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  .spanBox {
+    position: absolute;
+    width: 20px; 
+    height: 20px; 
+    border: 2px solid gray;
+    border-radius: 50%;
+    margin-top: -10px;
+    margin-left: 2px;
+  }
+  
+  .firstContainer input:checked ~ .spanBox {
+    background-color: #931602;
+    margin-top: -10px;
+    margin-left: 2px;
+  }
+  
+  .spanBox:after {
+    content: "";
+    position: absolute;
+  }
+  
+  .firstContainer input:checked ~ .spanBox:after {
+    width: 6px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2.3px; 
+    left: 5.5px; 
+  }
+  
+
+

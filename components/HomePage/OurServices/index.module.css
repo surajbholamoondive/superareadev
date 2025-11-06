@@ -1,0 +1,151 @@
+.servicesComponent {
+  width: 94%;
+  max-width: 1500px;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 10px;
+}
+.heading {
+  color: #283646;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  margin-left: 5%;
+}
+.underline {
+  width: 210px;
+  height: 5px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #c88e20;
+}
+.shortPara {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+  font-style: normal;
+  text-align: start;
+  line-height: 162%;
+  margin-left: -16px;
+}
+.wrapper {
+  display: flex;
+  width: 91%;
+  margin: auto;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  gap: 3%;
+  margin-left: 2.5%;
+  margin: auto;
+  padding: 20px 4px;
+}
+.wrapper::-webkit-scrollbar {
+  display: none;
+}
+.exploreAll {
+  display: flex;
+  width: 150px;
+  height: 42px;
+  padding: 17px 22px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 11px;
+  background: #89a190;
+  color: #f9fafc;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin: auto;
+  margin-top: 50px;
+}
+@media screen and (max-width: 768px) {
+  .servicesComponent {
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .heading {
+    margin-left: 30px;
+    text-align: start;
+  }
+  .underline {
+    width: 170px;
+  }
+  .exploreAll {
+    width: 150px;
+    height: 50px;
+    padding: 8px 12px;
+    border-radius: 11px;
+    margin-top: 20px;
+  }
+  .wrapper {
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 100%;
+  }
+  .heading {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .servicesComponent {
+    width: 100%;
+  }
+  .heading {
+    margin-left: 20px;
+    text-align: start;
+    font-size: 24px;
+  }
+  .underline {
+    width: 150px;
+  }
+  .shortPara {
+    margin-left: 1px;
+  }
+  .wrapper {
+    width: 100%;
+    padding: 10px 20px;
+    margin-left: 0px;
+    overflow-x: auto;
+    gap: 0%;
+    overflow-y: hidden;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .servicesComponent {
+    width: 100%;
+  }
+  .wrapper {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    gap: 2%;
+    padding: 20px 0px 20px 50px;
+  }
+  .heading {
+    color: #283646;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    margin-left: 5.5%;
+  }
+  .underline {
+    width: 200px;
+    height: 5px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #c88e20;
+  }
+  .shortPara {
+    margin-left: 0px;
+  }
+}

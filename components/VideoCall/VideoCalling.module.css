@@ -1,0 +1,11 @@
+@media (max-width:540px) {
+    .dummy {
+      height: 120px !important;
+      width:212px;
+      right:44px;
+    }
+    .profile{
+        height: 60px;
+        width: 60px;
+    }
+  }

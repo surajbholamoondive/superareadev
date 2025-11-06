@@ -1,0 +1,1273 @@
+[
+  {
+    "name": "Abohar",
+    "id": 1,
+    "state": "Punjab",
+    "latitude": 30.144533,
+    "longitude": 74.19552
+  },
+  {
+    "name": "Adilabad",
+    "id": 2,
+    "state": "Telangana",
+    "latitude": 19.4,
+    "longitude": 78.31
+  },
+  {
+    "name": "Agartala",
+    "id": 3,
+    "state": "Tripura",
+    "latitude": 23.836049,
+    "longitude": 91.279386
+  },
+  {
+    "name": "Agra",
+    "id": 4,
+    "state": "Uttar Pradesh",
+    "latitude": 27.187935,
+    "longitude": 78.003944
+  },
+  {
+    "name": "Ahmadnagar",
+    "id": 5,
+    "state": "Maharashtra",
+    "latitude": 19.094571,
+    "longitude": 74.738432
+  },
+  {
+    "name": "Ahmedabad",
+    "id": 6,
+    "state": "Gujarat",
+    "latitude": 23.025793,
+    "longitude": 72.587265
+  },
+  {
+    "name": "Aizawl",
+    "id": 7,
+    "state": "Mizoram",
+    "latitude": 23.736701,
+    "longitude": 92.714596
+  },
+  {
+    "name": "Ajmer",
+    "id": 8,
+    "state": "Rajasthan",
+    "latitude": 26.452103,
+    "longitude": 74.638667
+  },
+  {
+    "name": "Akola",
+    "id": 9,
+    "state": "Maharashtra",
+    "latitude": 20.709569,
+    "longitude": 76.998103
+  },
+  {
+    "name": "Alappuzha",
+    "id": 10,
+    "state": "Kerala",
+    "latitude": 9.494647,
+    "longitude": 76.331108
+  },
+  {
+    "name": "Aligarh",
+    "id": 11,
+    "state": "Uttar Pradesh",
+    "latitude": 27.881453,
+    "longitude": 78.07464
+  },
+  {
+    "name": "Alipurduar",
+    "id": 12,
+    "state": "West Bengal",
+    "latitude": 26.4835,
+    "longitude": 89.522855
+  },
+  {
+    "name": "Allahabad",
+    "id": 13,
+    "state": "Uttar Pradesh",
+    "latitude": 25.44478,
+    "longitude": 81.843217
+  },
+  {
+    "name": "Alwar",
+    "id": 14,
+    "state": "Rajasthan",
+    "latitude": 27.566291,
+    "longitude": 76.610202
+  },
+  {
+    "name": "Ambala",
+    "id": 15,
+    "state": "Haryana",
+    "latitude": 30.360993,
+    "longitude": 76.797819
+  },
+  {
+    "name": "Amaravati",
+    "id": 16,
+    "state": "Maharashtra",
+    "latitude": 20.933272,
+    "longitude": 77.75152
+  },
+  {
+    "name": "Amritsar",
+    "id": 17,
+    "state": "Punjab",
+    "latitude": 31.622337,
+    "longitude": 74.875335
+  },
+  {
+    "name": "Asansol",
+    "id": 18,
+    "state": "West Bengal",
+    "latitude": 23.683333,
+    "longitude": 86.983333
+  },
+  {
+    "name": "Aurangabad",
+    "id": 19,
+    "state": "Maharashtra",
+    "latitude": 19.880943,
+    "longitude": 75.346739
+  },
+  {
+    "name": "Aurangabad",
+    "id": 20,
+    "state": "Bihar",
+    "latitude": 24.752037,
+    "longitude": 84.374202
+  },
+  {
+    "name": "Bakshpur",
+    "id": 21,
+    "state": "Uttar Pradesh",
+    "latitude": 25.894283,
+    "longitude": 80.792104
+  },
+  {
+    "name": "Bamanpuri",
+    "id": 22,
+    "state": "Uttar Pradesh",
+    "latitude": 28.804495,
+    "longitude": 79.040305
+  },
+  {
+    "name": "Baramula",
+    "id": 23,
+    "state": "Jammu and Kashmir",
+    "latitude": 34.209004,
+    "longitude": 74.342853
+  },
+  {
+    "name": "Barddhaman",
+    "id": 24,
+    "state": "West Bengal",
+    "latitude": 23.255716,
+    "longitude": 87.856906
+  },
+  {
+    "name": "Bareilly",
+    "id": 25,
+    "state": "Uttar Pradesh",
+    "latitude": 28.347023,
+    "longitude": 79.421934
+  },
+  {
+    "name": "Belgaum",
+    "id": 26,
+    "state": "Karnataka",
+    "latitude": 15.862643,
+    "longitude": 74.508534
+  },
+  {
+    "name": "Bellary",
+    "id": 27,
+    "state": "Karnataka",
+    "latitude": 15.142049,
+    "longitude": 76.92398
+  },
+  {
+    "name": "Bengaluru",
+    "id": 28,
+    "state": "Karnataka",
+    "latitude": 12.977063,
+    "longitude": 77.587106
+  },
+  {
+    "name": "Bhagalpur",
+    "id": 29,
+    "state": "Bihar",
+    "latitude": 25.244462,
+    "longitude": 86.971832
+  },
+  {
+    "name": "Bharatpur",
+    "id": 30,
+    "state": "Rajasthan",
+    "latitude": 27.215251,
+    "longitude": 77.492786
+  },
+
+  {
+    "name": "Chandigarh",
+    "id": 1,
+    "state": "Chandigarh",
+    "latitude": 30.7363,
+    "longitude": 76.7884
+  },
+  {
+    "name": "Chennai",
+    "id": 2,
+    "state": "Tamil Nadu",
+    "latitude": 13.0827,
+    "longitude": 80.2707
+  },
+  {
+    "name": "Coimbatore",
+    "id": 3,
+    "state": "Tamil Nadu",
+    "latitude": 11.0168,
+    "longitude": 76.9558
+  },
+  {
+    "name": "Cuttack",
+    "id": 4,
+    "state": "Odisha",
+    "latitude": 20.4625,
+    "longitude": 85.8828
+  },
+
+  {
+    "name": "Dehradun",
+    "id": 1,
+    "state": "Uttarakhand",
+    "latitude": 30.3165,
+    "longitude": 78.0322
+  },
+  {
+    "name": "Delhi",
+    "id": 2,
+    "state": "Delhi",
+    "latitude": 28.7041,
+    "longitude": 77.1025
+  },
+  {
+    "name": "Dhanbad",
+    "id": 3,
+    "state": "Jharkhand",
+    "latitude": 23.7957,
+    "longitude": 86.4304
+  },
+  {
+    "name": "Dibrugarh",
+    "id": 4,
+    "state": "Assam",
+    "latitude": 27.4728,
+    "longitude": 94.912
+  },
+  {
+    "name": "Durgapur",
+    "id": 5,
+    "state": "West Bengal",
+    "latitude": 23.5204,
+    "longitude": 87.3119
+  },
+  {
+    "name": "Etawah",
+    "id": 1,
+    "state": "Uttar Pradesh",
+    "latitude": 26.7777,
+    "longitude": 79.0238
+  },
+  {
+    "name": "Erode",
+    "id": 2,
+    "state": "Tamil Nadu",
+    "latitude": 11.341,
+    "longitude": 77.7172
+  },
+  {
+    "name": "Faridabad",
+    "id": 1,
+    "state": "Haryana",
+    "latitude": 28.4089,
+    "longitude": 77.3178
+  },
+  {
+    "name": "Firozabad",
+    "id": 2,
+    "state": "Uttar Pradesh",
+    "latitude": 27.1591,
+    "longitude": 78.3958
+  },
+  {
+    "name": "Fatehpur",
+    "id": 3,
+    "state": "Uttar Pradesh",
+    "latitude": 25.9201,
+    "longitude": 80.809
+  },
+  {
+    "name": "Gandhinagar",
+    "id": 1,
+    "state": "Gujarat",
+    "latitude": 23.2156,
+    "longitude": 72.6369
+  },
+  {
+    "name": "Ghaziabad",
+    "id": 2,
+    "state": "Uttar Pradesh",
+    "latitude": 28.6692,
+    "longitude": 77.4538
+  },
+  {
+    "name": "Gorakhpur",
+    "id": 3,
+    "state": "Uttar Pradesh",
+    "latitude": 26.7606,
+    "longitude": 83.3732
+  },
+  {
+    "name": "Guntur",
+    "id": 4,
+    "state": "Andhra Pradesh",
+    "latitude": 16.3067,
+    "longitude": 80.4365
+  },
+  {
+    "name": "Guwahati",
+    "id": 5,
+    "state": "Assam",
+    "latitude": 26.1445,
+    "longitude": 91.7362
+  },
+  {
+    "name": "Gwalior",
+    "id": 6,
+    "state": "Madhya Pradesh",
+    "latitude": 26.2183,
+    "longitude": 78.1828
+  },
+  {
+    "name": "Hubli",
+    "id": 2,
+    "state": "Karnataka",
+    "latitude": 15.3647,
+    "longitude": 75.124
+  },
+  {
+    "name": "Hisar",
+    "id": 3,
+    "state": "Haryana",
+    "latitude": 29.1492,
+    "longitude": 75.7217
+  },
+  {
+    "name": "Hospet",
+    "id": 4,
+    "state": "Karnataka",
+    "latitude": 15.2695,
+    "longitude": 76.3871
+  },
+  {
+    "name": "Howrah",
+    "id": 5,
+    "state": "West Bengal",
+    "latitude": 22.5958,
+    "longitude": 88.2636
+  },
+  {
+    "name": "Haridwar",
+    "id": 6,
+    "state": "Uttarakhand",
+    "latitude": 29.9457,
+    "longitude": 78.1642
+  },
+  {"name": "Hathras", "id": 7, "state": "Uttar Pradesh", "latitude": 27.5956, "longitude": 78.0167},
+
+  {
+    "name": "Indore",
+    "id": 1,
+    "state": "Madhya Pradesh",
+    "latitude": 22.7196,
+    "longitude": 75.8577
+  },
+  {
+    "name": "Imphal",
+    "id": 2,
+    "state": "Manipur",
+    "latitude": 24.817,
+    "longitude": 93.9368
+  },
+  {
+    "name": "Ichalkaranji",
+    "id": 3,
+    "state": "Maharashtra",
+    "latitude": 16.709,
+    "longitude": 74.4561
+  },
+  {
+    "name": "Itanagar",
+    "id": 4,
+    "state": "Arunachal Pradesh",
+    "latitude": 27.0844,
+    "longitude": 93.6053
+  },
+  {
+    "name": "Jaipur",
+    "id": 1,
+    "state": "Rajasthan",
+    "latitude": 26.9124,
+    "longitude": 75.7873
+  },
+  {
+    "name": "Jodhpur",
+    "id": 2,
+    "state": "Rajasthan",
+    "latitude": 26.2389,
+    "longitude": 73.0243
+  },
+  {
+    "name": "Jamshedpur",
+    "id": 3,
+    "state": "Jharkhand",
+    "latitude": 22.8056,
+    "longitude": 86.2029
+  },
+  {
+    "name": "Jabalpur",
+    "id": 4,
+    "state": "Madhya Pradesh",
+    "latitude": 23.1815,
+    "longitude": 79.9864
+  },
+  {
+    "name": "Jammu",
+    "id": 5,
+    "state": "Jammu and Kashmir",
+    "latitude": 32.7266,
+    "longitude": 74.857
+  },
+  {
+    "name": "Jalandhar",
+    "id": 6,
+    "state": "Punjab",
+    "latitude": 31.326,
+    "longitude": 75.5762
+  },
+  {
+    "name": "Junagadh",
+    "id": 7,
+    "state": "Gujarat",
+    "latitude": 21.5222,
+    "longitude": 70.4579
+  },
+  {
+    "name": "Kolkata",
+    "id": 1,
+    "state": "West Bengal",
+    "latitude": 22.5726,
+    "longitude": 88.3639
+  },
+  {
+    "name": "Kanpur",
+    "id": 2,
+    "state": "Uttar Pradesh",
+    "latitude": 26.4499,
+    "longitude": 80.3319
+  },
+  {
+    "name": "Kochi",
+    "id": 3,
+    "state": "Kerala",
+    "latitude": 9.9312,
+    "longitude": 76.2673
+  },
+  {
+    "name": "Kozhikode",
+    "id": 4,
+    "state": "Kerala",
+    "latitude": 11.2588,
+    "longitude": 75.7804
+  },
+  {
+    "name": "Kolhapur",
+    "id": 5,
+    "state": "Maharashtra",
+    "latitude": 16.705,
+    "longitude": 74.2433
+  },
+  {
+    "name": "Karnal",
+    "id": 6,
+    "state": "Haryana",
+    "latitude": 29.6857,
+    "longitude": 76.9905
+  },
+  {
+    "name": "Kakinada",
+    "id": 7,
+    "state": "Andhra Pradesh",
+    "latitude": 16.9891,
+    "longitude": 82.2475
+  },
+  {
+    "name": "Lucknow",
+    "id": 1,
+    "state": "Uttar Pradesh",
+    "latitude": 26.8467,
+    "longitude": 80.9462
+  },
+  {
+    "name": "Ludhiana",
+    "id": 2,
+    "state": "Punjab",
+    "latitude": 30.9009,
+    "longitude": 75.8573
+  },
+  {
+    "name": "Latur",
+    "id": 3,
+    "state": "Maharashtra",
+    "latitude": 18.4088,
+    "longitude": 76.5604
+  },
+  {
+    "name": "Leh",
+    "id": 4,
+    "state": "Ladakh",
+    "latitude": 34.1526,
+    "longitude": 77.577
+  },
+  {
+    "name": "Mumbai",
+    "id": 1,
+    "state": "Maharashtra",
+    "latitude": 19.076,
+    "longitude": 72.8777
+  },
+  {
+    "name": "Madurai",
+    "id": 2,
+    "state": "Tamil Nadu",
+    "latitude": 9.9252,
+    "longitude": 78.1198
+  },
+  {
+    "name": "Mysore",
+    "id": 3,
+    "state": "Karnataka",
+    "latitude": 12.2958,
+    "longitude": 76.6394
+  },
+  {
+    "name": "Meerut",
+    "id": 4,
+    "state": "Uttar Pradesh",
+    "latitude": 28.9845,
+    "longitude": 77.7064
+  },
+  {
+    "name": "Mangalore",
+    "id": 5,
+    "state": "Karnataka",
+    "latitude": 12.9141,
+    "longitude": 74.856
+  },
+  {
+    "name": "Moradabad",
+    "id": 6,
+    "state": "Uttar Pradesh",
+    "latitude": 28.8389,
+    "longitude": 78.7768
+  },
+  {
+    "name": "Mathura",
+    "id": 7,
+    "state": "Uttar Pradesh",
+    "latitude": 27.4924,
+    "longitude": 77.6737
+  },
+  {
+    "name": "Nagpur",
+    "id": 1,
+    "state": "Maharashtra",
+    "latitude": 21.1458,
+    "longitude": 79.0882
+  },
+  {
+    "name": "Nashik",
+    "id": 2,
+    "state": "Maharashtra",
+    "latitude": 19.9975,
+    "longitude": 73.7898
+  },
+  {
+    "name": "Noida",
+    "id": 3,
+    "state": "Uttar Pradesh",
+    "latitude": 28.5355,
+    "longitude": 77.391
+  },
+  {
+    "name": "Nellore",
+    "id": 4,
+    "state": "Andhra Pradesh",
+    "latitude": 14.4426,
+    "longitude": 79.9865
+  },
+  {
+    "name": "Nanded",
+    "id": 5,
+    "state": "Maharashtra",
+    "latitude": 19.1602,
+    "longitude": 77.315
+  },
+  {
+    "name": "Nainital",
+    "id": 6,
+    "state": "Uttarakhand",
+    "latitude": 29.3919,
+    "longitude": 79.4542
+  },
+  {
+    "name": "Navsari",
+    "id": 7,
+    "state": "Gujarat",
+    "latitude": 20.9524,
+    "longitude": 72.9324
+  },
+  {
+    "name": "Ongole",
+    "id": 1,
+    "state": "Andhra Pradesh",
+    "latitude": 15.5057,
+    "longitude": 80.0499
+  },
+  {
+    "name": "Osmanabad",
+    "id": 2,
+    "state": "Maharashtra",
+    "latitude": 18.1861,
+    "longitude": 76.0419
+  },
+  {
+    "name": "Pune",
+    "id": 1,
+    "state": "Maharashtra",
+    "latitude": 18.5204,
+    "longitude": 73.8567
+  },
+  {
+    "name": "Patna",
+    "id": 2,
+    "state": "Bihar",
+    "latitude": 25.5941,
+    "longitude": 85.1376
+  },
+  {
+    "name": "Panaji",
+    "id": 3,
+    "state": "Goa",
+    "latitude": 15.4909,
+    "longitude": 73.8278
+  },
+  {
+    "name": "Pondicherry",
+    "id": 4,
+    "state": "Puducherry",
+    "latitude": 11.9416,
+    "longitude": 79.8083
+  },
+  {
+    "name": "Palakkad",
+    "id": 5,
+    "state": "Kerala",
+    "latitude": 10.7867,
+    "longitude": 76.6548
+  },
+  {
+    "name": "Patiala",
+    "id": 6,
+    "state": "Punjab",
+    "latitude": 30.3398,
+    "longitude": 76.3869
+  },
+  {
+    "name": "Raipur",
+    "id": 1,
+    "state": "Chhattisgarh",
+    "latitude": 21.2514,
+    "longitude": 81.6296
+  },
+  {
+    "name": "Ranchi",
+    "id": 2,
+    "state": "Jharkhand",
+    "latitude": 23.3441,
+    "longitude": 85.3096
+  },
+  {
+    "name": "Rajkot",
+    "id": 3,
+    "state": "Gujarat",
+    "latitude": 22.3039,
+    "longitude": 70.8022
+  },
+  {
+    "name": "Rewa",
+    "id": 4,
+    "state": "Madhya Pradesh",
+    "latitude": 24.53,
+    "longitude": 81.2991
+  },
+  {
+    "name": "Roorkee",
+    "id": 5,
+    "state": "Uttarakhand",
+    "latitude": 29.8543,
+    "longitude": 77.888
+  },
+  {
+    "name": "Rishikesh",
+    "id": 6,
+    "state": "Uttarakhand",
+    "latitude": 30.0869,
+    "longitude": 78.2676
+  },
+  {
+    "name": "Surat",
+    "id": 1,
+    "state": "Gujarat",
+    "latitude": 21.1702,
+    "longitude": 72.8311
+  },
+  {
+    "name": "Shimla",
+    "id": 2,
+    "state": "Himachal Pradesh",
+    "latitude": 31.1048,
+    "longitude": 77.1734
+  },
+  {
+    "name": "Srinagar",
+    "id": 3,
+    "state": "Jammu and Kashmir",
+    "latitude": 34.0837,
+    "longitude": 74.7973
+  },
+  {
+    "name": "Salem",
+    "id": 4,
+    "state": "Tamil Nadu",
+    "latitude": 11.6643,
+    "longitude": 78.146
+  },
+  {
+    "name": "Siliguri",
+    "id": 5,
+    "state": "West Bengal",
+    "latitude": 26.7271,
+    "longitude": 88.3953
+  },
+  {
+    "name": "Solapur",
+    "id": 6,
+    "state": "Maharashtra",
+    "latitude": 17.6599,
+    "longitude": 75.9064
+  },
+  {
+    "name": "Satara",
+    "id": 7,
+    "state": "Maharashtra",
+    "latitude": 17.6859,
+    "longitude": 73.9933
+  },
+  {
+    "name": "Thane",
+    "id": 1,
+    "state": "Maharashtra",
+    "latitude": 19.2183,
+    "longitude": 72.9781
+  },
+  {
+    "name": "Trivandrum",
+    "id": 2,
+    "state": "Kerala",
+    "latitude": 8.5241,
+    "longitude": 76.9366
+  },
+  {
+    "name": "Tiruchirappalli",
+    "id": 3,
+    "state": "Tamil Nadu",
+    "latitude": 10.7905,
+    "longitude": 78.7047
+  },
+  {
+    "name": "Thrissur",
+    "id": 4,
+    "state": "Kerala",
+    "latitude": 10.5276,
+    "longitude": 76.2144
+  },
+  {
+    "name": "Tirupati",
+    "id": 5,
+    "state": "Andhra Pradesh",
+    "latitude": 13.6288,
+    "longitude": 79.4192
+  },
+  {
+    "name": "Tirunelveli",
+    "id": 6,
+    "state": "Tamil Nadu",
+    "latitude": 8.7139,
+    "longitude": 77.7567
+  },
+  {
+    "name": "Tiruvannamalai",
+    "id": 7,
+    "state": "Tamil Nadu",
+    "latitude": 12.2253,
+    "longitude": 79.0747
+  },
+  {
+    "name": "Udaipur",
+    "id": 1,
+    "state": "Rajasthan",
+    "latitude": 24.5795,
+    "longitude": 73.68
+  },
+  {
+    "name": "Ujjain",
+    "id": 2,
+    "state": "Madhya Pradesh",
+    "latitude": 23.1824,
+    "longitude": 75.7764
+  },
+  {
+    "name": "Ulhasnagar",
+    "id": 3,
+    "state": "Maharashtra",
+    "latitude": 19.2215,
+    "longitude": 73.1645
+  },
+  {
+    "name": "Unnao",
+    "id": 4,
+    "state": "Uttar Pradesh",
+    "latitude": 26.5475,
+    "longitude": 80.4878
+  },
+  {
+    "name": "Udupi",
+    "id": 5,
+    "state": "Karnataka",
+    "latitude": 13.3409,
+    "longitude": 74.7421
+  },
+  {
+    "name": "Vadodara",
+    "id": 1,
+    "state": "Gujarat",
+    "latitude": 22.2994,
+    "longitude": 73.2081
+  },
+  {
+    "name": "Varanasi",
+    "id": 2,
+    "state": "Uttar Pradesh",
+    "latitude": 25.3177,
+    "longitude": 83.0058
+  },
+  {
+    "name": "Vellore",
+    "id": 3,
+    "state": "Tamil Nadu",
+    "latitude": 12.9058,
+    "longitude": 79.1371
+  },
+  {
+    "name": "Vijayawada",
+    "id": 4,
+    "state": "Andhra Pradesh",
+    "latitude": 16.5062,
+    "longitude": 80.648
+  },
+  {
+    "name": "Visakhapatnam",
+    "id": 5,
+    "state": "Andhra Pradesh",
+    "latitude": 17.7041,
+    "longitude": 83.2977
+  },
+  {
+    "name": "Warangal",
+    "id": 1,
+    "state": "Telangana",
+    "latitude": 17.9784,
+    "longitude": 79.6002
+  },
+  {
+    "name": "Mumbai",
+    "id": 1,
+    "state": "Maharashtra",
+    "latitude": 19.082177509908234,
+    "longitude": 72.87841855518519
+  },
+  {
+    "name": "Delhi",
+    "id": 2,
+    "state": "Delhi",
+    "latitude": 28.688268426014048,
+    "longitude": 77.21674938122554
+  },
+  {
+    "name": "Bangalore",
+    "id": 3,
+    "state": "Karnataka",
+    "latitude": 12.985908336866562,
+    "longitude": 77.58553329501414
+  },
+  {
+    "name": "Lucknow",
+    "id": 4,
+    "state": "Uttar Pradesh",
+    "latitude": 26.85113963681578,
+    "longitude": 80.94617498107455
+  },
+  {
+    "name": "Chennai",
+    "id": 5,
+    "state": "Tamil Nadu",
+    "latitude": 13.086111108343271,
+    "longitude": 80.26248253320796
+  },
+  {
+    "name": "Kolkata",
+    "id": 6,
+    "state": "West Bengal",
+    "latitude": 22.562674934604274,
+    "longitude": 88.36176719323129
+  },
+  {
+    "name": "Hyderabad",
+    "id": 7,
+    "state": "Telangana",
+    "latitude": 17.421250193108616,
+    "longitude": 78.47937109433205
+  },
+  {
+    "name": "Pune",
+    "id": 8,
+    "state": "Maharashtra",
+    "latitude": 18.527800350423384,
+    "longitude": 73.85058669490189
+  },
+  {
+    "name": "Ahmedabad",
+    "id": 9,
+    "state": "Gujarat",
+    "latitude": 23.0258456563062,
+    "longitude": 72.57766222695838
+  },
+  {
+    "name": "Jaipur",
+    "id": 10,
+    "state": "Rajasthan",
+    "latitude": 26.916344725432367,
+    "longitude": 75.79191136767899
+  },
+  {
+    "name": "Surat",
+    "id": 11,
+    "state": "Gujarat",
+    "latitude": 21.174488024860914,
+    "longitude": 72.82914198338676
+  },
+  {
+    "name": "Kanpur",
+    "id": 12,
+    "state": "Uttar Pradesh",
+    "latitude": 26.45875950316498,
+    "longitude": 80.32531663228222
+  },
+  {
+    "name": "Nagpur",
+    "id": 13,
+    "state": "Maharashtra",
+    "latitude": 21.14883899571536,
+    "longitude": 79.08210246565979
+  },
+  {
+    "name": "Indore",
+    "id": 14,
+    "state": "Madhya Pradesh",
+    "latitude": 22.72578831199625,
+    "longitude": 75.85833625257331
+  },
+  {
+    "name": "Thane",
+    "id": 15,
+    "state": "Maharashtra",
+    "latitude": 19.221654116313125,
+    "longitude": 72.98016906004764
+  },
+  {
+    "name": "Bhopal",
+    "id": 16,
+    "state": "Madhya Pradesh",
+    "latitude": 23.267467798909536,
+    "longitude": 77.41273749707676
+  },
+  {
+    "name": "Visakhapatnam",
+    "id": 17,
+    "state": "Andhra Pradesh",
+    "latitude": 17.69915263025631,
+    "longitude": 83.21856052034688
+  },
+  {
+    "name": "Agra",
+    "id": 18,
+    "state": "Uttar Pradesh",
+    "latitude": 27.178899189779358,
+    "longitude": 78.00713052800555
+  },
+  {
+    "name": "Patna",
+    "id": 19,
+    "state": "Bihar",
+    "latitude": 25.601133684966204,
+    "longitude": 85.13478320103944
+  },
+  {
+    "name": "Vadodara",
+    "id": 20,
+    "state": "Gujarat",
+    "latitude": 22.306138685628515,
+    "longitude": 73.17993215886136
+  },
+  {
+    "name": "Ludhiana",
+    "id": 21,
+    "state": "Punjab",
+    "latitude": 30.904133933270053,
+    "longitude": 75.85725065431144
+  },
+  {
+    "name": "Nashik",
+    "id": 22,
+    "state": "Maharashtra",
+    "latitude": 20.000300190621907,
+    "longitude": 73.78974273636999
+  },
+  {
+    "name": "Faridabad",
+    "id": 23,
+    "state": "Haryana",
+    "latitude": 28.414121531238788,
+    "longitude": 77.32248799015899
+  },
+  {
+    "name": "Madurai",
+    "id": 24,
+    "state": "Tamil Nadu",
+    "latitude": 9.926281488869263,
+    "longitude": 78.12007160693756
+  },
+  {
+    "name": "Kochi",
+    "id": 25,
+    "state": "Kerala",
+    "latitude": 9.938568621221773,
+    "longitude": 76.268837858122
+  },
+  {
+    "name": "Rajkot",
+    "id": 26,
+    "state": "Gujarat",
+    "latitude": 22.30237440949975,
+    "longitude": 70.80652929977045
+  },
+  {
+    "name": "Varanasi",
+    "id": 27,
+    "state": "Uttar Pradesh",
+    "latitude": 25.318257005340975,
+    "longitude": 82.96913222202882
+  },
+  {
+    "name": "Amritsar",
+    "id": 28,
+    "state": "Punjab",
+    "latitude": 31.636440763368068,
+    "longitude": 774.87972950670208
+  },
+  {
+    "name": "Srinagar",
+    "id": 29,
+    "state": "Jammu and Kashmir",
+    "latitude": 34.08366202936847,
+    "longitude": 74.80331820136682
+  },
+  {
+    "name": "Allahabad",
+    "id": 30,
+    "state": "Uttar Pradesh",
+    "latitude": 25.43914058847883,
+    "longitude": 81.83762936640201
+  },
+  {
+    "name": "Howrah",
+    "id": 31,
+    "state": "West Bengal",
+    "latitude": 22.60051258176281,
+    "longitude": 88.26505777297136
+  },
+  {
+    "name": "Jabalpur",
+    "id": 32,
+    "state": "Madhya Pradesh",
+    "latitude": 23.169045531390665,
+    "longitude": 79.93578977327101
+  },
+  {
+    "name": "Gwalior",
+    "id": 33,
+    "state": "Madhya Pradesh",
+    "latitude": 26.214440379313306,
+    "longitude": 78.17338544898243
+  },
+  {
+    "name": "Vijayawada",
+    "id": 34,
+    "state": "Andhra Pradesh",
+    "latitude": 16.508831981177572,
+    "longitude": 80.63698354925873
+  },
+  {
+    "name": "Jodhpur",
+    "id": 35,
+    "state": "Rajasthan",
+    "latitude": 26.2407772827655,
+    "longitude": 73.02161281927066
+  },
+  {
+    "name": "Raipur",
+    "id": 36,
+    "state": "Chhattisgarh",
+    "latitude": 21.255166344518113,
+    "longitude": 81.62593555141638
+  },
+  {
+    "name": "Kota",
+    "id": 37,
+    "state": "Rajasthan",
+    "latitude": 25.218114820285567,
+    "longitude": 75.86344036281498
+  },
+  {
+    "name": "Guwahati",
+    "id": 38,
+    "state": "Assam",
+    "latitude": 26.117679709279148,
+    "longitude": 91.71316636675236
+  },
+  {
+    "name": "Chandigarh",
+    "id": 39,
+    "state": "Chandigarh",
+    "latitude": 30.736385847317322,
+    "longitude": 76.77688954166605
+  },
+  {
+    "name": "Hubli",
+    "id": 40,
+    "state": "Karnataka",
+    "latitude": 15.3651875839119,
+    "longitude": 75.12527882616844
+  },
+  {
+    "name": "Durgapur",
+    "id": 41,
+    "state": "West Bengal",
+    "latitude": 23.522582806912414,
+    "longitude": 87.31081198156656
+  },
+  {
+    "name": "Bokaro",
+    "id": 42,
+    "state": "Jharkhand",
+    "latitude": 23.800014372873843,
+    "longitude": 85.88424205615117
+  },
+  {
+    "name": "Warangal",
+    "id": 43,
+    "state": "Telangana",
+    "latitude": 17.970868385462705,
+    "longitude": 79.59079214361675
+  },
+  {
+    "name": "Bhilai",
+    "id": 44,
+    "state": "Chhattisgarh",
+    "latitude": 21.194607677600487,
+    "longitude": 81.34871284354936
+  },
+  {
+    "name": "Guntur",
+    "id": 45,
+    "state": "Andhra Pradesh",
+    "latitude": 16.306385391064666,
+    "longitude": 80.43654795243775
+  },
+  {
+    "name": "Jamshedpur",
+    "id": 46,
+    "state": "Jharkhand",
+    "latitude": 22.807112246769996,
+    "longitude": 86.20357483994566
+  },
+  {
+    "name": "Gorakhpur",
+    "id": 47,
+    "state": "Uttar Pradesh",
+    "latitude": 26.76307823742952,
+    "longitude": 83.3702610328428
+  },
+  {
+    "name": "Noida",
+    "id": 48,
+    "state": "Uttar Pradesh",
+    "latitude": 28.53959686707825,
+    "longitude": 77.38532649393156
+  },
+  {
+    "name": "Kollam",
+    "id": 49,
+    "state": "Kerala",
+    "latitude": 8.894555926145326,
+    "longitude": 76.6142939464542
+  },
+  {
+    "name": "Gulbarga",
+    "id": 50,
+    "state": "Karnataka",
+    "latitude": 17.33276152769877,
+    "longitude": 76.83306840724902
+  },
+  {
+    "name": "Ghaziabad",
+    "id": 51,
+    "state": "Uttar Pradesh",
+    "latitude": 28.686904460425637,
+    "longitude": 77.40805241117818
+  }
+]

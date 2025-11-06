@@ -1,0 +1,15 @@
+[
+    {
+        "key": "propertySubType",
+        "heading": "Property Sub Type",
+        "filters": [
+            "Warehouse",
+            "Industrial Building",
+            "Industrial Land",
+            "Godown",
+            "Industrial Shed",
+            "Manufacturing",
+            "Factory"
+        ]
+    }
+]

@@ -1,0 +1,71 @@
+.flag {
+    display: flex;
+    align-items: center;
+    margin-left: -83px; 
+    width: auto; 
+    justify-content: flex-start;
+}
+
+.flag div {
+    width: 120px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 20px;
+    padding-left: 0;
+    margin-right: 5px;
+}
+
+.flag div select {
+    width: 20px;
+    height: 45px;     
+    color: rgb(49, 47, 47);
+    background-color: transparent;
+}
+
+.flag div select:focus {
+    outline: none;
+    background-color: #F7FBFC;
+    height: 30px;
+}
+
+.flag input {
+    background-color: transparent;
+    width: 300px;
+    height: 48px;
+}
+
+.flag input:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 700px) {
+    .flag input {
+        width: 150px;
+        height: 48px;
+    }
+
+    .flag {
+        width: auto;
+        margin-left: 0;
+        justify-content: flex-start;
+        margin-left: -80px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1118px) {
+    .flag {
+        width: auto;
+        margin-left: 0;
+        justify-content: flex-start;
+        margin-left: -80px;
+    }
+}
+
+@media (min-width: 771px) and (max-width: 1300px) {
+    .flag {
+        width: auto;
+        margin-left: 0;
+        justify-content: flex-start;
+        margin-left: -80px;
+    }
+}

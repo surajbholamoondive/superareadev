@@ -1,0 +1,99 @@
+.heading {
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: left;
+}
+
+.underline {
+  width: 90px;
+  height: 5px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #c88e20;
+}
+
+.button {
+  display: flex;
+  width: 140px;
+  height: 45px;
+  padding: 10px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 11px;
+  background: #89a190;
+  color: #f9fafc;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.cardsDiv {
+  display: flex;
+  width: fit-content;
+  position: relative;
+  justify-content: flex-start;
+  overflow: hidden;
+  margin-left: 0;
+  animation: moveX 120s linear infinite;
+}
+
+@keyframes moveX {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cardsDiv {
+    overflow-x: auto;
+    width: 100%;
+    animation: none;
+  }
+}
+
+.cardsDiv::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 550px) {
+  .heading {
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    margin-left: 8%;
+  }
+  .underline {
+    width: 65px;
+    height: 5px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #c88e20;
+    margin-left: 8%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .heading {
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    margin-left: -10%;
+  }
+
+  .underline {
+    width: 80px;
+    height: 5px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #c88e20;
+    margin-left: -10%;
+  }
+}

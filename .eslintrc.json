@@ -1,0 +1,44 @@
+{
+    "ignorePatterns": [
+      ".next/*"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ],
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
+    "env": {
+      "browser": true,
+      "es6": true,
+      "jest": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2020,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "globals": {
+      "globalThis": false
+    },
+    "rules": {
+      "no-console": 0,
+      "no-unexpected-multiline": 0,
+      "no-prototype-builtins": 0,
+      "react/react-in-jsx-scope": "off",
+      "react/prop-types": 0,
+      "no-duplicate-imports": 0,
+      "unused-imports/no-unused-imports": "error"
+    },
+      "plugins": [
+        "unused-imports",
+        "no-commented-code"
+
+      ]
+  }

@@ -21,7 +21,8 @@ import AgricultureIcon from '../../../assets/ColorChangeIcons/FilterIcons/Agricu
 import CommercialIcon from '../../../assets/ColorChangeIcons/FilterIcons/CommercialIcon'
 import IndustrialIcon from '../../../assets/ColorChangeIcons/FilterIcons/IndustrialIcon'
 import ResidentialIcon from '../../../assets/ColorChangeIcons/FilterIcons/Residential'
-import buildingImg from '../../../assets/homePageImage.jpg'
+// import buildingImg from '../../../assets/homePageImage.jpg'
+const buildingImg = "https://res.cloudinary.com/dgjhnlqjy/image/upload/v1762244230/assets/homePageImage.jpg";
 import effect from '../../../assets/topRight.jpg'
 import options from '../../../content/MoreOptions/index.jsx'
 import Styles from './search.module.css'

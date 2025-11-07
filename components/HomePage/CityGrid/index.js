@@ -7,29 +7,27 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import { HOME_PAGE_TEXT } from '@/textV2';
+const noida = "https://res.cloudinary.com/dgjhnlqjy/image/upload/v1762244383/assets/Images/OurLocation/NOIDA.png";
+const delhi = "https://res.cloudinary.com/dgjhnlqjy/image/upload/v1762244384/assets/Images/OurLocation/Delhi.jpg";
+const mumbai = "https://res.cloudinary.com/dgjhnlqjy/image/upload/v1762244386/assets/Images/OurLocation/Mumbai.jpg";
+const kolkata = "https://res.cloudinary.com/dgjhnlqjy/image/upload/v1762244385/assets/Images/OurLocation/KOLKATA.png";
+const hyderabad = "https://res.cloudinary.com/dgjhnlqjy/image/upload/v1762244385/assets/Images/OurLocation/Hyderabadd.jpg";
+const lucknow = "https://res.cloudinary.com/dgjhnlqjy/image/upload/v1762244386/assets/Images/OurLocation/Lucknow.jpg";
+const gurugram = "https://res.cloudinary.com/dgjhnlqjy/image/upload/v1762244385/assets/Images/OurLocation/GURUGRAM.png";
+const chennai = "https://res.cloudinary.com/dgjhnlqjy/image/upload/v1762244384/assets/Images/OurLocation/CHENNAI.png";
+const pune = "https://res.cloudinary.com/dgjhnlqjy/image/upload/v1762244386/assets/Images/OurLocation/Pune.png";
+const ahmedabad = "https://res.cloudinary.com/dgjhnlqjy/image/upload/v1762244384/assets/Images/OurLocation/AHEMDABAD.png";
+const chandigarh = "https://res.cloudinary.com/dgjhnlqjy/image/upload/v1762244383/assets/Images/OurLocation/CHANDIGARH.png";
+const goa = "https://res.cloudinary.com/dgjhnlqjy/image/upload/v1762244385/assets/Images/OurLocation/GOA.png";
+const vijayawada = "https://res.cloudinary.com/dgjhnlqjy/image/upload/v1762244387/assets/Images/OurLocation/VIJAYAWADA.png";
+const vizag = "https://res.cloudinary.com/dgjhnlqjy/image/upload/v1762244387/assets/Images/OurLocation/VIZAG.png";
+const indore = "https://res.cloudinary.com/dgjhnlqjy/image/upload/v1762244385/assets/Images/OurLocation/INDORE.png";
+const mohali = "https://res.cloudinary.com/dgjhnlqjy/image/upload/v1762244386/assets/Images/OurLocation/MOHALI.png";
+const kochi = "https://res.cloudinary.com/dgjhnlqjy/image/upload/v1762244385/assets/Images/OurLocation/KOCHI.png";
+const bengaluru = "https://res.cloudinary.com/dgjhnlqjy/image/upload/v1762244383/assets/Images/OurLocation/BENGALURU.png";
 
-import noida from '../../../assets/Images/OurLocation/noida.jpg';
-import delhi from '../../../assets/Images/OurLocation/Delhi.jpg';
-import mumbai from '../../../assets/Images/OurLocation/Mumbai.jpg';
-import kolkata from '../../../assets/Images/OurLocation/Kolkata.jpg';
-import hyderabad from '../../../assets/Images/OurLocation/Hyderabadd.jpg';
-import lucknow from '../../../assets/Images/OurLocation/Lucknow.jpg';
-import gurugram from '../../../assets/Images/OurLocation/GURUGRAM.png';
-import chennai from '../../../assets/Images/OurLocation/CHENNAI.png';
-import pune from '../../../assets/Images/OurLocation/Pune.png';
-import ahmedabad from '../../../assets/Images/OurLocation/AHEMDABAD.png';
-import chandigarh from '../../../assets/Images/OurLocation/CHANDIGARH.png';
-import goa from '../../../assets/Images/OurLocation/GOA.png';
-import vijayawada from '../../../assets/Images/OurLocation/VIJAYAWADA.png';
-import vizag from '../../../assets/Images/OurLocation/VIZAG.png';
-import indore from '../../../assets/Images/OurLocation/INDORE.png';
-import mohali from '../../../assets/Images/OurLocation/MOHALI.png';
-import kochi from '../../../assets/Images/OurLocation/KOCHI.png';
-import bengaluru from '../../../assets/Images/OurLocation/BENGALURU.png';
-
-
-import mapBackground from '../../../assets/Images/HomePage/mapBackground.png';
-
+// HomePage Image
+const mapBackground = "https://res.cloudinary.com/dgjhnlqjy/image/upload/v1762244381/assets/Images/HomePage/mapBackground.png";
 import { Navigation } from 'swiper/modules';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 const { text, routes } = HOME_PAGE_TEXT;

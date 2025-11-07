@@ -1,45 +1,88 @@
 import { useEffect, useState } from 'react'
 import dynamic from 'next/dynamic'
+import Image from 'next/image'
 import featureData from '@/assets/HomePage/FeatureHighlights'
 import { useAuth } from '@/context/auth'
 import { GLOBALLY_COMMON_TEXT } from '@/textV2'
 import { fetchFeaturedData, fetchRecommendedData } from '@/utils/helper'
 import { makeApiRequest } from '@/utils/utils'
 import { NextSeo } from 'next-seo'
-
 import Unauthorized from '@/components/UnauthorizedSection/unauthorized'
 
-// ✅ Use Cloudinary URLs directly to avoid hydration mismatch
 const buildingImage = "https://res.cloudinary.com/dgjhnlqjy/image/upload/v1762244383/assets/Images/HomePage/building.png"
 const backgroundImage = "https://res.cloudinary.com/dgjhnlqjy/image/upload/v1762244381/assets/Images/HomePage/mapBackground.png"
 
-// ✅ Lazy-loaded components
-const SearchSection = dynamic(() => import('@/components/HomePage/SearchSection'), { ssr: true })
-const Marquee = dynamic(() => import('@/components/Marquee'), { ssr: true })
+// ✅ Add loading fallbacks to prevent CLS
+const LoadingFallback = ({ height = '400px' }) => (
+  <div style={{ minHeight: height, backgroundColor: '#f5f5f5' }} />
+)
+
+// ✅ Dynamic imports with proper fallbacks
+const SearchSection = dynamic(() => import('@/components/HomePage/SearchSection'), { 
+  ssr: true,
+  loading: () => <LoadingFallback height="300px" />
+})
+const Marquee = dynamic(() => import('@/components/Marquee'), { 
+  ssr: true,
+  loading: () => <LoadingFallback height="60px" />
+})
 const SuperAI = dynamic(() => import('@/components/Chatbot/superAIMobile'), { ssr: false })
-const FeaturedSection = dynamic(() => import('@/components/HomePage/FeatureHighlights/FeatureHighlights'), { ssr: true })
-const Unique = dynamic(() => import('@/components/Unique/Unique'), { ssr: true })
-const CityGrid = dynamic(() => import('@/components/HomePage/CityGrid'), { ssr: true })
-const FeaturedProperties = dynamic(() => import('@/components/HomePage/FeaturedPropertiesSection/FeaturedProperties'), { ssr: true })
-const Services = dynamic(() => import('@/components/HomePage/Services/Services'), { ssr: true })
-const BlogSection = dynamic(() => import('@/components/Blog/BlogSection'), { ssr: true })
-const QR = dynamic(() => import('@/components/NonLoggedHomepage/QRCode'), { ssr: true })
-const NonLoggedUserHeader = dynamic(() => import('@/components/NonLoggedHomepage/NonLoggedUserHeader'), { ssr: true })
-const UniqueData = dynamic(() => import('@/components/NonLoggedHomepage/Unique'), { ssr: true })
-const NonLoggedServices = dynamic(() => import('@/components/NonLoggedHomepage/NonLoggedServices'), { ssr: true })
-const StandOut = dynamic(() => import('@/components/NonLoggedHomepage/StandOut'), { ssr: true })
+const FeaturedSection = dynamic(() => import('@/components/HomePage/FeatureHighlights/FeatureHighlights'), { 
+  ssr: true,
+  loading: () => <LoadingFallback height="500px" />
+})
+const Unique = dynamic(() => import('@/components/Unique/Unique'), { 
+  ssr: true,
+  loading: () => <LoadingFallback height="600px" />
+})
+const CityGrid = dynamic(() => import('@/components/HomePage/CityGrid'), { 
+  ssr: true,
+  loading: () => <LoadingFallback height="400px" />
+})
+const FeaturedProperties = dynamic(() => import('@/components/HomePage/FeaturedPropertiesSection/FeaturedProperties'), { 
+  ssr: true,
+  loading: () => <LoadingFallback height="500px" />
+})
+const Services = dynamic(() => import('@/components/HomePage/Services/Services'), { 
+  ssr: true,
+  loading: () => <LoadingFallback height="500px" />
+})
+const BlogSection = dynamic(() => import('@/components/Blog/BlogSection'), { 
+  ssr: true,
+  loading: () => <LoadingFallback height="400px" />
+})
+const QR = dynamic(() => import('@/components/NonLoggedHomepage/QRCode'), { 
+  ssr: true,
+  loading: () => <LoadingFallback height="300px" />
+})
+const NonLoggedUserHeader = dynamic(() => import('@/components/NonLoggedHomepage/NonLoggedUserHeader'), { 
+  ssr: true,
+  loading: () => <LoadingFallback height="400px" />
+})
+const UniqueData = dynamic(() => import('@/components/NonLoggedHomepage/Unique'), { 
+  ssr: true,
+  loading: () => <LoadingFallback height="600px" />
+})
+const NonLoggedServices = dynamic(() => import('@/components/NonLoggedHomepage/NonLoggedServices'), { 
+  ssr: true,
+  loading: () => <LoadingFallback height="500px" />
+})
+const StandOut = dynamic(() => import('@/components/NonLoggedHomepage/StandOut'), { 
+  ssr: true,
+  loading: () => <LoadingFallback height="400px" />
+})
 
 const { text, homepageSeoKeywords, routes } = GLOBALLY_COMMON_TEXT
 const { websiteLink } = routes
 
-// ✅ Simple loader component (no CLS, minimal paint)
+// ✅ Improved loader with no animation (faster paint)
 const Loader = () => (
   <div
     style={{
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
-      height: '100vh',
+      minHeight: '100vh',
       backgroundColor: '#fff',
     }}
   >
@@ -47,7 +90,7 @@ const Loader = () => (
       style={{
         width: '40px',
         height: '40px',
-        border: '4px solid #ccc',
+        border: '4px solid #e0e0e0',
         borderTopColor: '#0070f3',
         borderRadius: '50%',
         animation: 'spin 0.8s linear infinite',
@@ -55,41 +98,46 @@ const Loader = () => (
     />
     <style jsx>{`
       @keyframes spin {
-        0% {
-          transform: rotate(0deg);
-        }
-        100% {
-          transform: rotate(360deg);
-        }
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
       }
     `}</style>
   </div>
 )
 
 const Home = ({ articles, moderationData }) => {
-  const [propertyData, setPropertyData] = useState()
+  const [propertyData, setPropertyData] = useState([])
   const [featuredProperties, setFeaturedProperties] = useState([])
+  const [isDataLoading, setIsDataLoading] = useState(true)
   const [auth] = useAuth()
   const userType = auth?.userResult?.userType
 
   useEffect(() => {
-    if (!auth) return
+    if (!auth?.token) {
+      setIsDataLoading(false)
+      return
+    }
 
     const fetchListings = async () => {
-      const user_id = auth?.userResult?._id
-      const [featuredListings, recommendedListings] = await Promise.all([
-        fetchFeaturedData(),
-        fetchRecommendedData(user_id),
-      ])
+      try {
+        const user_id = auth?.userResult?._id
+        const [featuredListings, recommendedListings] = await Promise.all([
+          fetchFeaturedData(),
+          fetchRecommendedData(user_id),
+        ])
 
-      setFeaturedProperties(featuredListings || [])
-      setPropertyData(recommendedListings || [])
+        setFeaturedProperties(featuredListings || [])
+        setPropertyData(recommendedListings || [])
+      } catch (error) {
+        console.error('Failed to fetch listings:', error)
+      } finally {
+        setIsDataLoading(false)
+      }
     }
 
     fetchListings()
   }, [auth])
 
-  // ✅ Wait for auth with loader (prevents CLS + blank screen)
   if (auth === undefined) return <Loader />
 
   const { description, title, linkImage } = moderationData?.result?.websiteDescription || {}
@@ -131,21 +179,40 @@ const Home = ({ articles, moderationData }) => {
           <CityGrid />
           <FeaturedSection data={featureData.card3} />
 
+          {/* ✅ Reserve space with min-height to prevent CLS */}
           <div
-            className="custom-section w-[93%] lg:w-[93%]"
+            className="custom-section w-[93%] lg:w-[93%] relative"
             style={{
-              backgroundImage: `url(${buildingImage})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
               minHeight: '600px',
+              position: 'relative',
             }}
           >
-            {propertyData?.length > 0 && (
-              <FeaturedProperties recommendProperties={propertyData} />
-            )}
-            {featuredProperties?.length > 0 && (
-              <FeaturedProperties featuredProperties={featuredProperties} />
-            )}
+            {/* ✅ Use Next.js Image for better optimization */}
+            <Image
+              src={buildingImage}
+              alt="Building background"
+              fill
+              sizes="100vw"
+              style={{ objectFit: 'cover', objectPosition: 'center' }}
+              priority={false}
+              quality={75}
+            />
+            
+            <div className="relative z-10">
+              {/* ✅ Always render container to prevent layout shift */}
+              {isDataLoading ? (
+                <LoadingFallback height="500px" />
+              ) : (
+                <>
+                  {propertyData?.length > 0 && (
+                    <FeaturedProperties recommendProperties={propertyData} />
+                  )}
+                  {featuredProperties?.length > 0 && (
+                    <FeaturedProperties featuredProperties={featuredProperties} />
+                  )}
+                </>
+              )}
+            </div>
           </div>
 
           <Services />
@@ -153,20 +220,30 @@ const Home = ({ articles, moderationData }) => {
         </section>
       ) : (
         <section
-          className="bg-primary"
+          className="bg-primary relative"
           style={{
-            backgroundImage: `url(${backgroundImage})`,
-            backgroundSize: 'contain',
-            backgroundPosition: 'center',
             minHeight: '800px',
-            backgroundRepeat: 'no-repeat',
+            position: 'relative',
           }}
         >
-          <QR />
-          <NonLoggedUserHeader />
-          <UniqueData />
-          <NonLoggedServices />
-          <StandOut />
+          {/* ✅ Use Next.js Image instead of inline background */}
+          <Image
+            src={backgroundImage}
+            alt="Map background"
+            fill
+            sizes="100vw"
+            style={{ objectFit: 'contain', objectPosition: 'center' }}
+            priority
+            quality={75}
+          />
+          
+          <div className="relative z-10">
+            <QR />
+            <NonLoggedUserHeader />
+            <UniqueData />
+            <NonLoggedServices />
+            <StandOut />
+          </div>
         </section>
       )}
     </div>

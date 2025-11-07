@@ -52,7 +52,7 @@ const Home = ({ articles, moderationData }) => {
     fetchFeaturedListings()
     fetchRecommendedListings()
   }, [auth])
-
+ if (auth === undefined) return null
   const { description, title, linkImage } = moderationData?.result?.websiteDescription || {}
 
   return userType === text.adminText ? (

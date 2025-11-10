@@ -32,10 +32,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/otp-verify": [
+    "/search-result": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/otp-verify.js"
+      "static/chunks/pages/search-result.js"
     ]
   },
   "ampFirstPages": []

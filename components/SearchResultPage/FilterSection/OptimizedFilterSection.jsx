@@ -162,7 +162,7 @@ const OptimizedFilterSection = ({
   return (
     <div
       className="flex max-lg:flex-col max-md:justify-center w-fit rounded-xl"
-      style={{ marginTop: '3.3rem' }}
+      // style={{ marginTop: '3.3rem' }}
     >
       <div
         onClick={handleDrawerClose}

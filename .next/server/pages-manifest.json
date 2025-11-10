@@ -3,7 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/login": "pages/login.js",
-  "/404": "pages/404.js",
-  "/otp-verify": "pages/otp-verify.js"
+  "/property-view/[slug]": "pages/property-view/[slug].js",
+  "/search-result": "pages/search-result.js",
+  "/404": "pages/404.js"
 }
